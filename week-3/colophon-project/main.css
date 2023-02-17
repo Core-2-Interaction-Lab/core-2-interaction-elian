@@ -94,15 +94,33 @@ body {
 
 /* second paragraph, right */
 
-.paragraph2 {
+.paragraph2A {
     font-weight: lighter;
+    font-size: 20px;
+    color: #ffffff;
+    float: right;
+    text-align: center;
+    font-style: italic;
+    margin-top: -252px;
+    margin-right: 40px;
+    line-height: 30px;
+}
+
+.paragraph2B {
+    font-weight: bolder;
     font-size: 16px;
     color: #ffffff;
     float: right;
     text-align: center;
+    margin-top: -60px;
+    margin-right: 172px;
+    line-height: 30px;
+    letter-spacing: -1.7px;
 }
 
-
+.paragraph2B a:hover {
+    color: darkslategray
+}
 
 
 
