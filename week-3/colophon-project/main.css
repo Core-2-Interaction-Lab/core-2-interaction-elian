@@ -1,4 +1,4 @@
-
+@media (min-width: 530px) {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #c3d7d0;
@@ -111,3 +111,4 @@ body {
 
 
 
+}
