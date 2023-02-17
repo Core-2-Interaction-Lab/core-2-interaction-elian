@@ -14,16 +14,23 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        
     }
 
     /* Elian - Core - Feb */
 
-    .header0 {
+    .header0A, .header0B {
         font-weight: lighter;
         font-size: 11px;
         color: #19833A;
         margin-bottom: -20px;
-        float: left
+        float: center;
+        text-align: center;
+        margin-right: -150px;
+    }
+
+    .header0B {
+        margin-top: -150px
     }
 
     /* The Garden of Forking Path*/
