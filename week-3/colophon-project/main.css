@@ -9,6 +9,7 @@ body {
 .flex-container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
 /* Elian - Core - Feb */
@@ -40,8 +41,8 @@ body {
     font-size: 50px;
     letter-spacing: -3px;
     color: #ffffff;
-    text-decoration: none;
-    margin-top: auto;
+    margin-top: -30px;
+    margin-right: -100px;
     float: left;
 }
 
@@ -53,12 +54,14 @@ body {
 
 .subheading2 {
     font-weight: bold;
-    text-align: right;
+    text-align: left;
     font-size: 20px;
     letter-spacing: -1px;
     color: #037441;
     margin: auto;
-    float: right;
+    float: left;
+    margin-top: -25px;
+    margin-left: 120px;
 
 }
 
@@ -106,25 +109,42 @@ body {
     line-height: 30px;
 }
 
-.paragraph2B {
+.paragraph2B a {
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     float: right;
     text-align: center;
     margin-top: -60px;
-    margin-right: 172px;
+    margin-right: 162px;
     line-height: 30px;
-    letter-spacing: -1.7px;
+    letter-spacing: -2px;
+    float: right;
 }
 
 .paragraph2B a:hover {
-    color: darkslategray
+    color: lightseagreen
 }
 
+/* Assistant Regular, Assistant ExtraBold */
 
+.typeface1 , .typeface2 {
+    color: #ffffff;
+    letter-spacing: -5px;
+    margin-bottom: -130px;
+    float: left;
+}
 
+.typeface1 {
+    font-size: 60px;
+    margin-top: -30px;
+    font-weight: lighter;
+}
 
+.typeface2 {
+    font-size: 74px;
+    font-weight: bolder;
+}
 
 
 
