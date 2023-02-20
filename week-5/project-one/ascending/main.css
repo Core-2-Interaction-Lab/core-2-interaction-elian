@@ -145,17 +145,22 @@
 
     /* Narration */
 
-    .paragraph {
+    .flower1 a {
         font-weight: lighter;
         font-size: 17px;
-        color: #b9e9df;
+        color: #001D15;
         text-align: left;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
         float: left;
         margin: 10px;
         margin-top: 100px;
+        text-decoration: none;
     }
+
+        .flower1 a:hover {
+            color: #b9e9df;
+        }
 
 
 
