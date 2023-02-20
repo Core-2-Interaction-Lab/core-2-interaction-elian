@@ -8,7 +8,7 @@
     width: 100%; 
     transition: top 0.5s; 
     }
-  
+   
 .navbar a, .headerbar a {
     float: left;
     display: block;
@@ -70,7 +70,7 @@
             }
 
 
-@media (min-width: 530px) {
+@media (min-width: 500px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: #001D15;
@@ -83,10 +83,10 @@
 
     .flex-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
-	    align-content: space-between;
+        align-content: flex-end;
     }
 
 
@@ -98,6 +98,7 @@
         color: #b9e9df;
         text-align: center;
         flex-wrap: wrap;
+        float: center;
     }
 
     /* The Garden of Forking Path*/
@@ -107,7 +108,7 @@
         text-align: left;
         font-size: 80px;
         letter-spacing: -7px;
-        color: #FF9900;
+        color: #ff0080;
         margin-bottom: -40px;
         margin-top: -10px;
     }
@@ -122,7 +123,7 @@
         margin-bottom: -25px;
         font-size: 20px;
         letter-spacing: -1px;
-        color: #0fb3ff;
+        color: #bd70b3;
         font-family: 'Paprika', sans-serif;
     }
 
@@ -132,7 +133,7 @@
     .subheading1 a {
         font-weight: lighter;
         text-align: left;
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: -3px;
         color: #ffffff;
         margin-left: 10px;
@@ -145,18 +146,71 @@
 
     /* Narration */
 
-    .paragraph {
+    .instruction1 a, .instruction3 a {
         font-weight: lighter;
-        font-size: 17px;
-        color: #b9e9df;
-        text-align: left;
+        font-size: 13px;
+        color: #08281f;
+        text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
         float: left;
         margin: 10px;
         margin-top: 100px;
+        text-decoration: none;
     }
 
+        .instruction1 a:hover, .instruction3 a:hover {
+            color: #006b80;
+        }
+
+        .instruction3 a {
+            float: right;
+            margin-top: -10px;
+            margin-bottom: 200px;
+        }
+
+    .instruction2 a {
+        font-weight: lighter;
+        font-size: 13px;
+        color: #08281f;
+        text-align: center;
+        line-height: 40px;
+        font-family: 'Paprika', sans-serif;
+        float: right;
+        text-decoration: none;
+        margin: 20px;
+        margin-top: 150px;
+    }
+        .instruction2 a:hover {
+            color: #006b80;
+        }
+
+    .flowers a{
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 13px;
+        color: #31574c;
+        line-height: 40px;
+        font-family: 'Paprika', sans-serif; 
+        text-decoration: none;
+        text-align: center;
+    }
+
+        .flower1 a {
+           float: right;
+           color: rgb(183, 29, 119);
+        }
+
+        .flower2 a {
+            float: left;
+            color:rgb(228, 152, 196);
+        }
+
+        .flower3 a {
+            float: left;
+            color:rgb(154, 132, 145);
+        }
+         
 
 
 
@@ -165,5 +219,25 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+        .toptexts2 {
+            animation: fadeEffect 40s; 
+         }
+         
+         @keyframes fadeEffect { 
+            from {opacity: 0;}
+            to {opacity: 100%;}
+         }
 }
 
