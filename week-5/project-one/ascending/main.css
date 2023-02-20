@@ -166,11 +166,12 @@
         font-weight: lighter;
         font-size: 13px;
         color: #31574c;
-        text-align: right;
+        text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
         float: right;
         text-decoration: none;
+        margin: 20px;
         margin-top: 150px;
     }
         .instruction2 a:hover {
