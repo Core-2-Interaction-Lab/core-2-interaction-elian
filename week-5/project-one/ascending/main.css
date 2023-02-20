@@ -108,7 +108,7 @@
         text-align: left;
         font-size: 80px;
         letter-spacing: -7px;
-        color: #FF9900;
+        color: #ff0080;
         margin-bottom: -40px;
         margin-top: -10px;
     }
@@ -123,7 +123,7 @@
         margin-bottom: -25px;
         font-size: 20px;
         letter-spacing: -1px;
-        color: #0fb3ff;
+        color: #bd70b3;
         font-family: 'Paprika', sans-serif;
     }
 
@@ -133,7 +133,7 @@
     .subheading1 a {
         font-weight: lighter;
         text-align: left;
-        font-size: 40px;
+        font-size: 30px;
         letter-spacing: -3px;
         color: #ffffff;
         margin-left: 10px;
@@ -146,7 +146,7 @@
 
     /* Narration */
 
-    .instruction1 a {
+    .instruction1 a, .instruction3 a {
         font-weight: lighter;
         font-size: 13px;
         color: #08281f;
@@ -159,8 +159,14 @@
         text-decoration: none;
     }
 
-        .instruction1 a:hover {
+        .instruction1 a:hover, .instruction3 a:hover {
             color: #006b80;
+        }
+
+        .instruction3 a {
+            float: right;
+            margin-top: -10px;
+            margin-bottom: 200px;
         }
 
     .instruction2 a {
