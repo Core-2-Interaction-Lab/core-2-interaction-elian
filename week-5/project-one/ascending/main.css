@@ -145,11 +145,11 @@
 
     /* Narration */
 
-    .flower1 a {
+    .instruction1 a {
         font-weight: lighter;
-        font-size: 17px;
-        color: #001D15;
-        text-align: left;
+        font-size: 13px;
+        color: #31574c;
+        text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
         float: left;
@@ -158,8 +158,23 @@
         text-decoration: none;
     }
 
-        .flower1 a:hover {
-            color: #b9e9df;
+        .instruction1 a:hover {
+            color: #003324;
+        }
+
+    .instruction2 a {
+        font-weight: lighter;
+        font-size: 13px;
+        color: #31574c;
+        text-align: right;
+        line-height: 40px;
+        font-family: 'Paprika', sans-serif;
+        float: right;
+        text-decoration: none;
+        margin-top: 150px;
+    }
+        .instruction2 a:hover {
+            color: #003324;
         }
 
 
