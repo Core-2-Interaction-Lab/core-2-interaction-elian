@@ -70,7 +70,7 @@
             }
 
 
-@media (min-width: 530px) {
+@media (min-width: 500px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: #001D15;
@@ -83,10 +83,10 @@
 
     .flex-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
-	    align-content: space-between;
+        align-content: flex-end;
     }
 
 
@@ -98,6 +98,7 @@
         color: #b9e9df;
         text-align: center;
         flex-wrap: wrap;
+        float: center;
     }
 
     /* The Garden of Forking Path*/
@@ -148,7 +149,7 @@
     .instruction1 a {
         font-weight: lighter;
         font-size: 13px;
-        color: #31574c;
+        color: #08281f;
         text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
@@ -159,13 +160,13 @@
     }
 
         .instruction1 a:hover {
-            color: #003324;
+            color: #006b80;
         }
 
     .instruction2 a {
         font-weight: lighter;
         font-size: 13px;
-        color: #31574c;
+        color: #08281f;
         text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
@@ -175,13 +176,35 @@
         margin-top: 150px;
     }
         .instruction2 a:hover {
-            color: #003324;
+            color: #006b80;
         }
 
     .flowers a{
         text-decoration: none;
+        font-weight: lighter;
+        font-size: 13px;
+        color: #31574c;
+        line-height: 40px;
+        font-family: 'Paprika', sans-serif; 
+        text-decoration: none;
+        text-align: center;
     }
 
+        .flower1 a {
+           float: right;
+           color: rgb(183, 29, 119);
+        }
+
+        .flower2 a {
+            float: left;
+            color:rgb(228, 152, 196);
+        }
+
+        .flower3 a {
+            float: left;
+            color:rgb(154, 132, 145);
+        }
+         
 
 
 
@@ -189,5 +212,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .toptexts2 {
+            animation: fadeEffect 40s; 
+         }
+         
+         @keyframes fadeEffect { 
+            from {opacity: 0;}
+            to {opacity: 100%;}
+         }
 }
 
