@@ -60,7 +60,7 @@
         font-size: 20px;
         letter-spacing: -1px;
         color: #00574b;
-
+        font-family: 'Paprika', sans-serif;
     }
 
     /* first paragraph, left */
@@ -76,13 +76,14 @@
 
     /* second paragraph, right */
 
-    .paragraph2A {
+    .paragraph2 {
         font-weight: lighter;
-        font-size: 20px;
+        font-size: 16px;
         color: #ffffff;
         text-align: center;
         font-style: italic;
         line-height: 30px;
+        font-family: 'Paprika', sans-serif;
     }
 
     /* Assistant Regular, Assistant ExtraBold */
@@ -97,7 +98,8 @@
     .typeface1 {
         font-size: 60px;
         font-weight: lighter;
-        line-height: 45px;
+        line-height: 55px;
+        font-family: 'Paprika', sans-serif;
     }
 
     .typeface2 {
@@ -133,11 +135,12 @@
 
     .paragraph4A {
         font-weight: lighter;
-        font-size: 20px;
+        font-size: 16px;
         color: #ffffff;
         text-align: left;
         font-style: italic;
         line-height: 30px;
+        font-family: 'Paprika', sans-serif;
     }
 
     .paragraph4B a {
