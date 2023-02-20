@@ -1,0 +1,113 @@
+/* NavBar G A R D E N */
+    
+.navbar, .headerbar {
+    background-color: #333; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    }
+  
+  /* Style the navbar links */
+.navbar a, .headerbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+  
+.navbar a:hover, .headerbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+@media (min-width: 530px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #001D15;
+        white-space: normal;
+        vertical-align: top;
+        display: inline-block;
+        margin-right: 80px;
+        margin-left: 80px; 
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+	    align-content: space-between;
+    }
+
+
+    /* Elian - Core - Feb */
+
+    .header0A, .header0B {
+        font-weight: lighter;
+        font-size: 11px;
+        color: #19833A;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    /* The Garden of Forking Path*/
+
+    .heading1 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 80px;
+        letter-spacing: -7px;
+        color: #00360F;
+        margin-bottom: -40px;
+        margin-top: -10px;
+    }
+        
+    /* On labrynths and simultaneous, branching realities. */
+
+    .subheading2 {
+        font-weight: bold;
+        text-align: left;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-bottom: -25px;
+        font-size: 20px;
+        letter-spacing: -1px;
+        color: #00574b;
+        font-family: 'Paprika', sans-serif;
+    }
+
+
+    /* By Jorge Luis Borges*/
+
+    .subheading1 a {
+        font-weight: lighter;
+        text-align: left;
+        font-size: 40px;
+        letter-spacing: -3px;
+        color: #ffffff;
+        margin-left: 10px;
+    }
+
+    .subheading1 a:hover {
+        color: lightseagreen;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
