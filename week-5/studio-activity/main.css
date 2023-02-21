@@ -7,6 +7,10 @@
 body {
     color: navy;
     font-family: 'Montague Slab', serif;
+    border: 5px;
+    border-color: navy;
+    display: block;
+    border-top-color: navy;
   }
   
   .wrapper {
