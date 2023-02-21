@@ -108,7 +108,7 @@
         text-align: left;
         font-size: 80px;
         letter-spacing: -7px;
-        color: #ff0080;
+        color: #0084ff;
         margin-bottom: -40px;
         margin-top: -10px;
     }
@@ -123,7 +123,7 @@
         margin-bottom: -25px;
         font-size: 20px;
         letter-spacing: -1px;
-        color: #bd70b3;
+        color: #7086bd;
         font-family: 'Paprika', sans-serif;
     }
 
@@ -153,7 +153,7 @@
         text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
-        float: left;
+        float: right;
         margin: 10px;
         margin-top: 100px;
         text-decoration: none;
@@ -164,9 +164,10 @@
         }
 
         .instruction3 a {
-            float: right;
+            float: left;
             margin-top: -10px;
             margin-bottom: 200px;
+            margin-left: 300px;
         }
 
     .instruction2 a {
@@ -176,7 +177,7 @@
         text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
-        float: right;
+        float: left;
         text-decoration: none;
         margin: 20px;
         margin-top: 150px;
@@ -195,20 +196,32 @@
         text-decoration: none;
         text-align: center;
     }
+    
+    .paragraphs {
+        color: #6875b6;
+        text-decoration: none;
+        font-weight: lighter;
+        font-size: 7px;
+        line-height: 25px;
+        font-family: 'Paprika', sans-serif; 
+        text-decoration: none;
+        text-align: right;
+    }
+
 
         .flower1 a {
-           float: right;
-           color: rgb(183, 29, 119);
+           float: left;
+           color: rgb(29, 85, 183);
         }
 
         .flower2 a {
-            float: left;
-            color:rgb(228, 152, 196);
+            float: right;
+            color:rgb(111, 159, 223);
         }
 
         .flower3 a {
             float: left;
-            color:rgb(154, 132, 145);
+            color:rgb(132, 144, 154);
         }
          
 
