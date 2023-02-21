@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'Montague Slab';
+  src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
+  font-display: swap;
+}
+ 
 body {
     color: navy;
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Montague Slab';
   }
   
   .wrapper {
@@ -8,25 +14,30 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    text-align: center;
   }
   
+  .header {
+    line-height: .7;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    font-size: 150px;
+    margin-top: 40px;
+  }
+
   .links {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 4;
+    text-decoration: none;
   }
   
-  h1 {
-    font-weight: 500;
-    font-size: 10vw;
-    text-align: center;
-  }
   
-  a {
+  .links {
     color: navy;
     text-decoration: none;
     border-bottom: 1px solid;
