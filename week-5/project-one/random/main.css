@@ -175,7 +175,7 @@
         }
 
     .instruction1 a{
-        float: right;
+        float: left;
     }
 
     .instruction2 a {
@@ -185,9 +185,9 @@
         text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
-        float: left;
+        float: right;
         text-decoration: none;
-        margin: 20px;
+        margin-left: 200px;
         margin-top: 150px;
     }
         .instruction2 a:hover {
