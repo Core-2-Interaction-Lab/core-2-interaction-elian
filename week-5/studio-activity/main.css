@@ -23,9 +23,10 @@ body {
     font-weight: bolder;
     font-size: 150px;
     margin-top: 40px;
+    margin-bottom: 50px;
   }
 
-  .links {
+  .links a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,14 +37,16 @@ body {
     text-decoration: none;
   }
   
+
   
-  .links {
+  .links a {
     color: navy;
     text-decoration: none;
     border-bottom: 1px solid;
     margin-bottom: 36px;
   }
   
-  a:hover {
+  .links a:hover {
     border-bottom: 1px dotted;
+    color: darkcyan;
   }
