@@ -6,13 +6,13 @@
    
   body {
     font-family: 'Montague Slab', serif;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     font-weight: normal;
-    background-color: black;
-    color: aliceblue;
-  }
+    background-color: aliceblue;
+    color: black;
+  } 
   
   .wrapper {
     display: flex;
@@ -31,14 +31,14 @@
         letter-spacing: -8px;
         font-weight: normal;
         margin: 0;
-        font-size: 120px;
+        font-weight: bolder;
     }
     
     .subheader {
         font-weight: normal;
         margin-left: 30px;
         margin-top: -20px;
-        font-size: 50px;
+        font-weight: italic;
         letter-spacing: 15px;
     }
 
@@ -49,20 +49,22 @@
 
     .chapter {
         letter-spacing: 10px;
-        font-size: 25px;
+        font-weight: bolder;
     }
 
         .chapterNum {
             letter-spacing: 10px;
+            font-weight: lighter;
         }
     
     .description {
         margin: 0;
-        
+        font-weight: italic;
     }
         
     .page {
         margin-top: 10px;
+        font-weight: lighter;
     }
 
   .footer {
