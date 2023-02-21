@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Montague Slab';
+  font-family: 'Montague Slab', serif;
   src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
   font-display: swap;
 }
  
 body {
     color: navy;
-    font-family: 'Montague Slab';
+    font-family: 'Montague Slab', serif;
   }
   
   .wrapper {
