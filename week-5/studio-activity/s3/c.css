@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Montague Slab', serif;
+    src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
+    font-display: swap;
+  }
+   
+  body {
+    font-family: 'Montague Slab', serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    background-color: black;
+    color: aliceblue;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  
+  .heading {
+    margin: 20px;
+    text-align: center;
+  }
+
+    .header {
+        letter-spacing: -8px;
+        font-weight: normal;
+        margin: 0;
+        font-size: 120px;
+    }
+    
+    .subheader {
+        font-weight: normal;
+        margin-left: 30px;
+        margin-top: -20px;
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+
+
+  .entries {
+    margin-left: 100px;
+  }
+
+    .chapter {
+        letter-spacing: 10px;
+        font-size: 25px;
+    }
+
+        .chapterNum {
+            letter-spacing: 10px;
+        }
+    
+    .description {
+        margin: 0;
+        
+    }
+        
+    .page {
+        margin-top: 10px;
+    }
+
+  .footer {
+    margin-left: 100px;
+    line-height: 2px;
+  }
+  
