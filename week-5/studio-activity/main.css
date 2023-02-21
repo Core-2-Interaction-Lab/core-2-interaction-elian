@@ -7,10 +7,8 @@
 body {
     color: navy;
     font-family: 'Montague Slab', serif;
-    border: 5px;
-    border-color: navy;
     display: block;
-    border-top-color: navy;
+    background-color: aliceblue;
   }
   
   .wrapper {
@@ -19,6 +17,9 @@ body {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    border-color: navy;
+    border: 3vw solid navy;
+    padding: 2em;
   }
   
   .header {
@@ -29,6 +30,7 @@ body {
     margin-top: 40px;
     margin-bottom: 50px;
   }
+
 
   .links a {
     display: flex;
@@ -41,8 +43,6 @@ body {
     text-decoration: none;
   }
   
-
-  
   .links a {
     color: navy;
     text-decoration: none;
@@ -53,4 +53,5 @@ body {
   .links a:hover {
     border-bottom: 1px dotted;
     color: darkcyan;
+    font-weight: 12px;
   }
