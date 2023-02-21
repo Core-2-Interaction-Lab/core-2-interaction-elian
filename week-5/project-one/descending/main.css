@@ -108,7 +108,7 @@
         text-align: left;
         font-size: 80px;
         letter-spacing: -7px;
-        color: #ff0080;
+        color: #ff8000;
         margin-bottom: -40px;
         margin-top: -10px;
     }
@@ -123,7 +123,7 @@
         margin-bottom: -25px;
         font-size: 20px;
         letter-spacing: -1px;
-        color: #bd70b3;
+        color: #bd9c70;
         font-family: 'Paprika', sans-serif;
     }
 
@@ -164,7 +164,7 @@
         }
 
         .instruction3 a {
-            float: right;
+            float: left;
             margin-top: -10px;
             margin-bottom: 200px;
         }
@@ -197,18 +197,18 @@
     }
 
         .flower1 a {
-           float: right;
-           color: rgb(183, 29, 119);
+           float: left;
+           color: rgb(183, 111, 29);
         }
 
         .flower2 a {
-            float: left;
-            color:rgb(228, 152, 196);
+            float: right;
+            color:rgb(228, 203, 152);
         }
 
         .flower3 a {
             float: left;
-            color:rgb(154, 132, 145);
+            color:rgb(154, 147, 132);
         }
          
 
