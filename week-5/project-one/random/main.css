@@ -153,7 +153,6 @@
         text-align: center;
         line-height: 40px;
         font-family: 'Paprika', sans-serif;
-        float: right;
         margin: 10px;
         margin-top: 100px;
         margin-right: 300px;
@@ -175,7 +174,7 @@
         }
 
     .instruction1 a{
-        float: left;
+        float: center;
     }
 
     .instruction2 a {
