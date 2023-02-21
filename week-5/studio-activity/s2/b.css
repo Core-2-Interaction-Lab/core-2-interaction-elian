@@ -12,6 +12,7 @@
     font-weight: normal;
     background-color: aliceblue;
     color: black;
+    text-align: center;
   } 
   
   .wrapper {
@@ -25,26 +26,22 @@
   .heading {
     margin: 20px;
     text-align: center;
+    font-weight: bolder;
   }
 
     .header {
-        letter-spacing: -8px;
-        font-weight: normal;
-        margin: 0;
+        text-align: left;
         font-weight: bolder;
+        font-weight: italic;
     }
     
     .subheader {
-        font-weight: normal;
-        margin-left: 30px;
-        margin-top: -20px;
-        font-weight: italic;
-        letter-spacing: 15px;
+        margin-top: -40px;
+        text-align: right;
     }
 
 
   .entries {
-    margin-left: 100px;
   }
 
     .chapter {
@@ -68,7 +65,6 @@
     }
 
   .footer {
-    margin-left: 100px;
     line-height: 2px;
   }
   
