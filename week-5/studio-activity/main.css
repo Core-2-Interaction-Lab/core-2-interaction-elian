@@ -3,8 +3,8 @@
   src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
   font-display: swap;
 }
- 
-body {
+@media (min-width: 3in) {
+  body {
     color: navy;
     font-family: 'Montague Slab', serif;
     display: block;
@@ -56,3 +56,4 @@ body {
     color: darkcyan;
     font-weight: 12px;
   }
+}
