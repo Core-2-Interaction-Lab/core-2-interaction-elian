@@ -11,13 +11,27 @@
 <body>
     <div class="wrapper">
       <h1 class="header">Table of Contents <br>Explorations</h1>
-      <div class="links">
-        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s1/a.html" class="links">1. One Typeface, One Type Size</a>
-        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s2/b.html" class="links">2. With Rules and One Type Size</a>
-        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s3/c.html" class="links">3. Two Weights </a>
-        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s4/d.html" class="links">4. No Restrictions</a>
+      <div id="toptexts2" class="toptexts2">
+        <div class="links">
+          <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s1/a.html" class="links"><br>1. One Typeface, One Type Size</a>
+          <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s2/b.html" class="links">2. With Rules and One Type Size</a>
+          <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s3/c.html" class="links">3. Two Weights </a>
+          <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s4/d.html" class="links">4. No Restrictions</a>
+        </div>
       </div>
-    </div>
+      <p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>:)</p>
+    <script>
+      window.addEventListener("scroll", function() {showFunction()});
+  
+      function showFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          document.getElementById("toptexts2").style.display = "block";
+        } 
+         else {
+          document.getElementById("toptexts2").style.display = "none";
+        }
+      }
+    </script>
 
 
 
