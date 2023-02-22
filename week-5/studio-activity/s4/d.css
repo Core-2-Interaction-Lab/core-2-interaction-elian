@@ -170,4 +170,13 @@
         text-align: left;
     }
 
+
+    .toptexts2 {
+      animation: fadeEffect 10s; 
+   }
+   
+   @keyframes fadeEffect { 
+      from {opacity: 0;}
+      to {opacity: 100%;}
+   }
 }   
