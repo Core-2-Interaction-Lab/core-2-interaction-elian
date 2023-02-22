@@ -82,6 +82,7 @@
     text-align: center;
     border-color: navy;
     border: 2vw dotted rgb(0, 51, 33);
+    padding: 2em;
   } 
   
   .wrapper {
