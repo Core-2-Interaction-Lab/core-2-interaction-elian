@@ -7,11 +7,39 @@
   <title>One Type, One Size</title>
   <link href="a.css" rel="stylesheet">
 </head>
+<header>
+    <div id="navbar" class="headerbar">
+      <div class="A">
+        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s1/a.html">1</a>
+      </div>
+      <div class="B">
+       <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s2/b.html">2</a>
+      </div>
+      <div class="C"> 
+        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s3/c.html">3</a>
+      </div>
+      <div class="D">
+        <a href="https://core-2-interaction-lab.github.io/core-2-interaction-elian/week-5/studio-activity/s4/d.html">4</a>
+      </div>
+    </div>
+  </header>
+
+  <script>
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
+      }
+  </script>
 <body>
     <div class="wrapper">
         <div class="heading">
             <p class="header">Visual Thinking</p>
-            <p class="subheader">Rudolf Arnheim</p>
+            <p class="subheader">Rudolf Arnheim</p><br><br><br>
         </div>
     </div>
     <div class="entries">
