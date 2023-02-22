@@ -36,8 +36,10 @@
 
         /* Individual letter styles */
         .A a{
-            color: #000000;
+            color: #ffffff;
+            background-color: black;
         }
+
         .B a{
             color: #000000;
         }
