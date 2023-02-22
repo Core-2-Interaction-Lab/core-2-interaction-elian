@@ -1,8 +1,10 @@
 @font-face {
-    font-family: 'Montague Slab', serif;
-    src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
-    font-display: swap;
-  }
+  font-family: 'Montague Slab', serif;
+  src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
+  font-display: swap;
+}
+
+@media (min-width: 3in) {  
   .navbar, .headerbar {
     background-color: #ffffff; 
     position: fixed; 
@@ -59,7 +61,6 @@
           }
 
 
-@media (min-width: 500px) {
   .flex-container {
       display: flex;
       flex-direction: column;
