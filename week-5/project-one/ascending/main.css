@@ -1,76 +1,76 @@
 
-/* NavBar G A R D E N */
-
-.navbar, .headerbar {
-    background-color: #033a2f; 
-    position: fixed; 
-    top: -100px; 
-    width: 100%; 
-    transition: top 0.5s; 
+    /* NavBar G A R D E N */
+    @media (min-width: 3in) {
+    .navbar, .headerbar {
+        background-color: #033a2f; 
+        position: fixed; 
+        top: -100px; 
+        width: 100%; 
+        transition: top 0.5s; 
+        }
+    
+    .navbar a, .headerbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 40px;
     }
-   
-.navbar a, .headerbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 40px;
-}
-  
-    .navbar a:hover, .headerbar a:hover {
-        background-color: #ddd;
-    }
-
-    .navbar a:active, .headerbar a:active {
-        text-decoration: underline;
-        background-color: #ddd;
-
-    }
-
-        /* Individual letter styles */
-        .G a{
-            color: #9AB400;
-        }
-        .A a{
-            color: #FF92B2;
-        }
-        .R a{
-            color: #6CB9FF;
-        }
-        .D a{
-            color: #FF9900;
-        }
-        .E a{
-            color: #FFE7EE;
-        }
-        .N a{
-            color: #8EFFE4;
+    
+        .navbar a:hover, .headerbar a:hover {
+            background-color: #ddd;
         }
 
-            .G a:hover, G a:active {
-                color: #556603;
+        .navbar a:active, .headerbar a:active {
+            text-decoration: underline;
+            background-color: #ddd;
+
+        }
+
+            /* Individual letter styles */
+            .G a{
+                color: #9AB400;
             }
-            .A a:hover, .A a:active {
-                color: #7d1f3d;
+            .A a{
+                color: #FF92B2;
             }
-            .R a:hover, .R a:active {
-                color: #1a4a78;
+            .R a{
+                color: #6CB9FF;
             }
-            .D a:hover, .D a:active {
-                color: #6a470f;
+            .D a{
+                color: #FF9900;
             }
-            .E a:hover, .E a:active {
-                color: #5c0b21;
+            .E a{
+                color: #FFE7EE;
             }
-            .N a:hover, .N a:active {
-                color: #0c4a5d;
+            .N a{
+                color: #8EFFE4;
             }
 
+                .G a:hover, G a:active {
+                    color: #556603;
+                }
+                .A a:hover, .A a:active {
+                    color: #7d1f3d;
+                }
+                .R a:hover, .R a:active {
+                    color: #1a4a78;
+                }
+                .D a:hover, .D a:active {
+                    color: #6a470f;
+                }
+                .E a:hover, .E a:active {
+                    color: #5c0b21;
+                }
+                .N a:hover, .N a:active {
+                    color: #0c4a5d;
+                }
 
-@media (min-width: 500px) {
+
+
     body {
         font-family: Arial, Helvetica, sans-serif;
         background-color: #001D15;
