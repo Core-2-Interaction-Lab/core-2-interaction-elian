@@ -1,136 +1,142 @@
 @font-face {
-    font-family: 'Montague Slab', serif;
-    src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
-    font-display: swap;
-  }
-  .navbar, .headerbar {
-    background-color: #ffffff; 
-    position: fixed; 
-    top: -100px; 
-    width: 100%; 
-    transition: top 0.5s; 
-  }
- 
-  .navbar a, .headerbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    text-decoration: none; 
-    font-size: 30px;
-  }
+  font-family: 'Montague Slab', serif;
+  src: url(MontaguSlab-VariableFont_opsz,wght.ttf) format(ttf);
+  font-display: swap;
+}
+.navbar, .headerbar {
+  background-color: rgb(0, 51, 33);
+  position: fixed; 
+  top: -100px; 
+  width: 87.1%; 
+  transition: top 0.5s; 
+}
 
-  .navbar a:hover, .headerbar a:hover {
-      background-color: rgb(0, 0, 0);
-  }
+.navbar a, .headerbar a {
+  float: left;
+  display: block;
+  color: rgb(0, 51, 33);
+  text-align: center;
+  padding: 15px;
+  text-decoration: none; 
+  font-size: 30px;
+  margin-left: 184px;
+  font-weight: bolder;
+}
 
-  .navbar a:active, .headerbar a:active {
-      text-decoration: underline;
-      background-color: rgb(0, 0, 0);
+.navbar a:hover, .headerbar a:hover {
+    background-color: rgb(225, 244, 236);
+}
 
-  }
+.navbar a:active, .headerbar a:active {
+    text-decoration: underline;
+    background-color: rgb(225, 244, 236);
 
-      /* Individual letter styles */
-      .A a{
-          color: #000000;
-      }
-      .B a{
-          color: #000000;
-      }
-      .C a{
-          color: #000000;
-      }
-      .D a{
-          color: #000000;
-      }
+}
 
-          .A a:hover, A a:active {
-              color: #ffffff;
-          }
-          .B a:hover, .B a:active {
-              color: #ffffff;
-          }
-          .C a:hover, .C a:active {
-              color: #ffffff;
-          }
-          .D a:hover, .D a:active {
-              color: #ffffff;
-          }
+    /* Individual letter styles */
+    .A a{
+        color: rgb(225, 244, 236);
+    }
+    .B a{
+        color: rgb(225, 244, 236);
+    }
+    .C a{
+        color: rgb(225, 244, 236);
+    }
+    .D a{
+        color: rgb(225, 244, 236);
+    }
+
+        .A a:hover, A a:active {
+            color: rgb(0, 51, 33);
+        }
+        .B a:hover, .B a:active {
+            color: rgb(0, 51, 33);
+        }
+        .C a:hover, .C a:active {
+            color: rgb(0, 51, 33);
+        }
+        .D a:hover, .D a:active {
+            color: rgb(0, 51, 33);
+        }
 
 @media (min-width: 500px) {
-  .flex-container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-content: flex-end;
-  }
-
-
-  body {
-    font-family: 'Montague Slab', serif;
-    font-size: 20px;
+.flex-container {
     display: flex;
     flex-direction: column;
-    font-weight: normal;
-    background-color: black;
-    color: aliceblue;
-  }
-  
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+}
 
-  
-  .heading {
-    margin: 20px;
-    text-align: center;
-  }
-
-    .header {
-        letter-spacing: -8px;
-        font-weight: normal;
-        margin: 0;
-        font-size: 120px;
-    }
-    
-    .subheader {
-        font-weight: normal;
-        margin-left: 30px;
-        margin-top: -20px;
-        font-size: 50px;
-        letter-spacing: 15px;
-    }
-
-
-  .entries {
-    margin-left: 100px;
-  }
-
-    .chapter {
-        letter-spacing: 10px;
-        font-size: 25px;
-    }
-
-        .chapterNum {
-            letter-spacing: 10px;
-        }
-    
-    .description {
-        margin: 0;
-        
-    }
-        
-    .page {
-        margin-top: 10px;
-    }
-
-  .footer {
-    margin-left: 100px;
-    line-height: 2px;
-  }
+body {
+  font-family: 'Montague Slab', serif;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  background-color: rgb(225, 244, 236);
+  color: black;
+  text-align: center;
+  border-color: navy;
+  border: 2vw dotted rgb(0, 51, 33);
+  padding: 2em;
 } 
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1px;
+  text-align: left;
+  background: rgb(0, 51, 33);
+  color: rgb(225, 244, 236);
+
+}
+
+
+
+.heading {
+  margin: 20px;
+  text-align: center;
+  font-weight: bolder;
+  letter-spacing: 10px;
+}
+
+  .header {
+      text-align: left;
+      font-weight: bolder;
+      font-weight: italic;
+  }
+  
+  .subheader {
+      margin-top: -40px;
+      text-align: right;
+  }
+
+
+  .chapter {
+      letter-spacing: 10px;
+      font-weight: bolder;
+  }
+
+      .chapterNum {
+          letter-spacing: 10px;
+          font-weight: lighter;
+      }
+  
+  .description {
+      margin: 0;
+      font-weight: italic;
+  }
+      
+  .page {
+      margin-top: 10px;
+      font-weight: lighter;
+  }
+
+.footer {
+  line-height: 2px;
+}
+}
