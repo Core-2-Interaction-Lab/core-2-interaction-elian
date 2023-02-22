@@ -5,7 +5,7 @@
 }
 @media (min-width: 3in) {
     .navbar, .headerbar {
-    background-color: rgb(173, 0, 52);
+    background-color: rgb(173, 121, 0);
     position: fixed; 
     top: -700px; 
     width: 3%;
@@ -15,7 +15,7 @@
     .navbar a, .headerbar a {
     float: column;
     display: block;
-    color: rgb(173, 0, 52);
+    color: rgb(173, 121, 0);
     text-align: left;
     padding: 15px;
     text-decoration: none; 
@@ -24,40 +24,41 @@
     }
 
     .navbar a:hover, .headerbar a:hover {
-        background-color: rgb(229, 250, 255);
+        background-color: rgb(0, 27, 33);
     }
 
     .navbar a:active, .headerbar a:active {
         text-decoration: underline;
-        background-color: rgb(229, 250, 255);
+        background-color: rgb(0, 27, 33);
 
     }
 
         /* Individual letter styles */
         .A a{
-            color: rgb(229, 250, 255);
+            color: rgb(0, 27, 33);
         }
         .B a{
-            color: rgb(229, 250, 255);
+            color: rgb(0, 27, 33);
         }
         .C a{
-            color: rgb(229, 250, 255);
+            color: rgb(0, 27, 33);
         }
         .D a{
-            color: rgb(229, 250, 255);
+            color: rgb(173, 121, 0);
+            background-color: rgb(0, 27, 33);
         }
 
             .A a:hover, A a:active {
-                color: rgb(173, 0, 52);
+                color: rgb(173, 121, 0);
             }
             .B a:hover, .B a:active {
-                color: rgb(173, 0, 52);
+                color: rgb(173, 121, 0);
             }
             .C a:hover, .C a:active {
-                color: rgb(173, 0, 52);
+                color: rgb(173, 121, 0);
             }
             .D a:hover, .D a:active {
-                color: rgb(173, 0, 52);
+                color: rgb(173, 121, 0);
             }
 
 
@@ -75,10 +76,10 @@
     display: flex;
     flex-direction: column;
     font-weight: normal;
-    background-color: rgb(229, 250, 255);
+    background-color: rgb(0, 27, 33);
     color: black;
     text-align: center;
-    border: 1.5vw dotted rgb(173, 0, 52);
+    border: 1.5vw dotted rgb(173, 121, 0);;
     padding: 2em;
     } 
 
@@ -94,7 +95,7 @@
     .heading {
     margin-top: -150px;
     margin-left: 40px;
-    text-align: left;
+    text-align: center;
     font-weight: bolder;
     letter-spacing: -1px;
     font-size: 200px;
@@ -103,16 +104,16 @@
     }
 
     .header {
-        text-align: left;
+        text-align: center;
         font-weight: bolder;
-        color: rgb(25, 0, 255);
+        color: rgb(255, 77, 0);
         
     }
     
     .subheader {
         margin-top: -200px;
-        text-align: left;
-        color: rgb(69, 118, 197);
+        text-align: center;
+        color: rgb(163, 197, 69);
     }
 
     .entries1, .entries2, .entries3  {
@@ -120,31 +121,34 @@
         margin-right: 50px;
     }
         .chapter {
-            letter-spacing: 10px;
+            letter-spacing: -4px;
             font-weight: bolder;
-            font-size: 30px;
-            color: rgb(0, 24, 110);
+            font-size: 50px;
+            color: rgb(236, 122, 0);
+            margin-bottom: -7px;
         }
 
             .chapterNum {
                 letter-spacing: 10px;
                 font-weight: lighter;
-                font-size: 40px;
+                font-size: 60px;
                 font-weight: bolder;
-                color: rgb(173, 0, 52);
+                color: rgb(173, 121, 0);
                 letter-spacing: -5px;
+                margin-bottom: -70px;
             }
         
         .description {
-            margin: 0;
-            color: rgb(46, 135, 162);
+            margin-top: 50px;
+            color: rgb(0, 180, 235);
+            letter-spacing: 10px;
         }
             
         .page {
             margin-top: 10px;
             font-weight: lighter;
             letter-spacing: -3px;
-            color: rgb(92, 104, 113);
+            color: rgb(174, 187, 78);
         }
 
         .footer {
@@ -153,7 +157,7 @@
             font-family: 'Montague Slab', serif;
             margin-right: 20px;
             margin-bottom: -50px;
-            color: rgb(92, 104, 113);
+            color: rgb(192, 127, 195);
         }
     
 
