@@ -56,4 +56,12 @@
     color: darkcyan;
     font-weight: 12px;
   }
+  .toptexts2 {
+    animation: fadeEffect 5s; 
+ }
+ 
+ @keyframes fadeEffect { 
+    from {opacity: 0;}
+    to {opacity: 100%;}
+ }
 }
