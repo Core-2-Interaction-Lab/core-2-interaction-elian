@@ -5,60 +5,59 @@
 }
 @media (min-width: 3in) {
     .navbar, .headerbar {
-    background-color: rgb(0, 51, 33);
+    background-color: rgb(173, 0, 52);
     position: fixed; 
-    top: -100px; 
-    width: 87.1%; 
-    transition: top 0.5s; 
+    top: -700px; 
+    width: 3%;
+    transition: top 1.5s; 
     }
 
     .navbar a, .headerbar a {
-    float: left;
+    float: column;
     display: block;
-    color: rgb(0, 51, 33);
-    text-align: center;
+    color: rgb(173, 0, 52);
+    text-align: left;
     padding: 15px;
     text-decoration: none; 
     font-size: 30px;
-    margin-left: 184px;
     font-weight: bolder;
     }
 
     .navbar a:hover, .headerbar a:hover {
-        background-color: rgb(225, 244, 236);
+        background-color: rgb(229, 250, 255);
     }
 
     .navbar a:active, .headerbar a:active {
         text-decoration: underline;
-        background-color: rgb(225, 244, 236);
+        background-color: rgb(229, 250, 255);
 
     }
 
         /* Individual letter styles */
         .A a{
-            color: rgb(225, 244, 236);
+            color: rgb(229, 250, 255);
         }
         .B a{
-            color: rgb(225, 244, 236);
+            color: rgb(229, 250, 255);
         }
         .C a{
-            color: rgb(225, 244, 236);
+            color: rgb(229, 250, 255);
         }
         .D a{
-            color: rgb(225, 244, 236);
+            color: rgb(229, 250, 255);
         }
 
             .A a:hover, A a:active {
-                color: rgb(0, 51, 33);
+                color: rgb(173, 0, 52);
             }
             .B a:hover, .B a:active {
-                color: rgb(0, 51, 33);
+                color: rgb(173, 0, 52);
             }
             .C a:hover, .C a:active {
-                color: rgb(0, 51, 33);
+                color: rgb(173, 0, 52);
             }
             .D a:hover, .D a:active {
-                color: rgb(0, 51, 33);
+                color: rgb(173, 0, 52);
             }
 
 
@@ -76,68 +75,99 @@
     display: flex;
     flex-direction: column;
     font-weight: normal;
-    background-color: rgb(225, 244, 236);
+    background-color: rgb(229, 250, 255);
     color: black;
     text-align: center;
-    border-color: navy;
-    border: 2vw dotted rgb(0, 51, 33);
+    border: 1.5vw dotted rgb(173, 0, 52);
     padding: 2em;
     } 
 
     .wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 1px;
+    align-items: left;
     text-align: left;
-    background: rgb(0, 51, 33);
-    color: rgb(225, 244, 236);
-
     }
 
 
 
     .heading {
-    margin: 20px;
-    text-align: center;
+    margin-top: -150px;
+    margin-left: 40px;
+    text-align: left;
     font-weight: bolder;
-    letter-spacing: 10px;
+    letter-spacing: -1px;
+    font-size: 200px;
+    line-height: 110px;
+    
     }
 
     .header {
         text-align: left;
         font-weight: bolder;
-        font-weight: italic;
+        color: rgb(25, 0, 255);
+        
     }
     
     .subheader {
-        margin-top: -40px;
-        text-align: right;
+        margin-top: -200px;
+        text-align: left;
+        color: rgb(69, 118, 197);
     }
 
-
-    .chapter {
-        letter-spacing: 10px;
-        font-weight: bolder;
+    .entries1, .entries2, .entries3  {
+        margin-left: 50px;
+        margin-right: 50px;
     }
-
-        .chapterNum {
+        .chapter {
             letter-spacing: 10px;
+            font-weight: bolder;
+            font-size: 30px;
+            color: rgb(0, 24, 110);
+        }
+
+            .chapterNum {
+                letter-spacing: 10px;
+                font-weight: lighter;
+                font-size: 40px;
+                font-weight: bolder;
+                color: rgb(173, 0, 52);
+                letter-spacing: -5px;
+            }
+        
+        .description {
+            margin: 0;
+            color: rgb(46, 135, 162);
+        }
+            
+        .page {
+            margin-top: 10px;
             font-weight: lighter;
+            letter-spacing: -3px;
+            color: rgb(92, 104, 113);
+        }
+
+        .footer {
+            line-height: 25px;
+            text-align: right;
+            font-family: 'Montague Slab', serif;
+            margin-right: 20px;
+            margin-bottom: -50px;
+            color: rgb(92, 104, 113);
         }
     
-    .description {
-        margin: 0;
-        font-weight: italic;
-    }
+
+    .entries1 {
+        text-align: right;
         
-    .page {
-        margin-top: 10px;
-        font-weight: lighter;
     }
 
-    .footer {
-    line-height: 2px;
+    .entries2 {
+        text-align: center;
     }
-}
+
+    .entries3 {
+        text-align: left;
+    }
+
+}   
