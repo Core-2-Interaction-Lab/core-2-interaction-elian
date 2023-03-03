@@ -1,0 +1,31 @@
+
+:root {
+    --color: #ff7300;
+}
+
+
+body {
+    background-color: rgb(0, 18, 29);
+    color: var(--color);
+    font-family: sans-serif;
+    font-size: 80px;
+    letter-spacing: -20px;
+}
+
+main {
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px solid currentColor;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
