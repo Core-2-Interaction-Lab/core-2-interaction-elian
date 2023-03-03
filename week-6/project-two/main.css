@@ -1,11 +1,11 @@
 
 :root {
-    --color: #ff7300;
+    --color: #6b0000;
 }
 
 
 body {
-    background-color: rgb(0, 18, 29);
+    background-color: rgb(228, 255, 247);
     color: var(--color);
     font-family: sans-serif;
     font-size: 80px;
