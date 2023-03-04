@@ -1,121 +1,136 @@
 
 @media (min-width: 3in) {
-    .navbar, .headerbar {
-    background-color: rgb(173, 0, 52);
+   
+  /*  navbar that appears on scroll  */
+  .navbar, .headerbar {
     position: fixed; 
     top: -700px; 
     width: 3%;
     transition: top 1.5s; 
     }
 
+    /*  navbar styling  */ 
     .navbar a, .headerbar a {
-    float: column;
-    display: block;
-    color: rgb(173, 0, 52);
-    text-align: left;
-    padding: 15px;
-    text-decoration: none; 
-    font-size: 30px;
-    font-weight: bolder;
+      float: column;
+      display: block;
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-decoration: none; 
+      font-size: 10px;
+      font-weight: bolder;
+      color: rgb(247, 234, 245);
     }
-
-    .navbar a:hover, .headerbar a:hover {
-        background-color: rgb(229, 250, 255);
+    /* individual tab color styling */
+    .A a{
+      color: rgb(248, 201, 181);
+      background-color: rgb(238, 103, 0);
     }
-
-    .navbar a:active, .headerbar a:active {
-        text-decoration: underline;
-        background-color: rgb(229, 250, 255);
-
-    }
-
-        /* Individual letter styles */
-        .A a{
-            color: rgb(229, 250, 255);
-        }
-        .B a{
-            color: rgb(229, 250, 255);
-        }
-        .C a{
-            color: rgb(173, 0, 52);
-            background-color: rgb(229, 250, 255);
-        } 
-        .D a{
-            color: rgb(229, 250, 255);
+        .A a:hover {
+          color: rgb(91, 72, 48);
+          background-color: rgb(247, 160, 46);
         }
 
-            .A a:hover, A a:active {
-                color: rgb(173, 0, 52);
-            }
-            .B a:hover, .B a:active {
-                color: rgb(173, 0, 52);
-            
-            }
-            .D a:hover, .D a:active {
-                color: rgb(173, 0, 52);
-            }
+    .B a{
+      color: rgb(139, 184, 255);
+      background-color: rgb(42, 101, 198);
+    }
+      .B a:hover {
+        color: rgb(61, 68, 81);
+        background-color: rgb(63, 131, 249);
+      }
 
-
-    .flex-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: flex-end;
+   .C a{
+      color: rgb(197, 197, 197);
+      background-color: rgb(0, 0, 0);
+    }
+      .C a:hover {
+        color: rgb(162, 166, 171);
+        background-color: rgb(73, 76, 80);
+      }
+/*  current tab on navbar styling  */ 
+    .D a{
+      background-color: rgb(183, 0, 91);
+      color: rgb(255, 175, 243);
+    }
+    .D a:hover {
+      background-color: rgb(255, 89, 214);
+      color: rgb(98, 63, 89);
     }
 
-    body {
-    font-family: sans-serif;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    font-weight: normal;
-    background-color: rgb(247, 234, 245);
-    color: rgb(63, 0, 36);
-    text-align: center;
-    border: 1.6vw solid rgb(74, 5, 55);
-    padding: 2em;
-    } 
+    /*  general content  */
+      .flex-container {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-content: flex-end;
+      }
 
-    .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
-    }
+      body {
+      font-family: sans-serif;
+      font-size: 25px;
+      display: flex;
+      flex-direction: column;
+      font-weight: normal;
+      background-color: rgb(247, 234, 245);
+      color: rgb(63, 0, 36);
+      text-align: center;
+      border: 1.6vw solid rgb(74, 5, 55);
+      padding: 2em;
+      } 
+
+      .wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      text-align: left;
+      }
 
 
-
+/*  Header and Subheader  */
     .heading {
     margin-top: -150px;
-    margin-left: 40px;
-    text-align: left;
+    margin-left: 105px;
     font-weight: bolder;
     letter-spacing: -1px;
     font-size: 200px;
     line-height: 110px;
     
     }
-
+/*  Core 2  - Header */
     .header {
         text-align: left;
         font-weight: bolder;
         color: rgb(74, 5, 55);
+        margin-left: -7px;
         letter-spacing: -25px;
         
     }
-    
+  /*  Elian Villarrubia - Subheader  */  
     .subheader {
         margin-top: -200px;
         text-align: left;
         color: rgb(143, 1, 108);
         letter-spacing: -25px;
+        margin-bottom: 100px;
     }
 
-    .entries1, .entries2, .entries3  {
+
+
+
+    /*  FIX THIS! Only one type of entry  */
+
+
+
+    /*  entry styling (all of the info for each project)  */
+    .entries {
         margin-left: 50px;
         margin-right: 50px;
+        text-align: center;
     }
+
+    /*  Project Title  */
         .chapter {
             letter-spacing: 10px;
             font-weight: bolder;
@@ -154,17 +169,5 @@
         }
     
 
-    .entries1 {
-        text-align: right;
-        
-    }
-
-    .entries2 {
-        text-align: center;
-    }
-
-    .entries3 {
-        text-align: left;
-    }
 
 }   
