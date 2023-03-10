@@ -19,6 +19,193 @@ body {
 	position: relative;
   }
   
+  .table {
+	width: 30vw;
+  height: 30vw;
+  transform: skew(-320deg);
+  background: #ffffff;
+  position: absolute;
+  top: 20vw;
+  left: 40vw;
+  }
+
+  /* 8-Ball */
+	.front {  
+	
+		width: 8.9vw;
+		height: 16vw;
+		background: #B1B2B3;
+		position: absolute;
+		top: 16.8vw;
+		left: 43.3vw;
+
+	}
+
+
+  /* Tape Roll */
+	.catears {
+  
+	  width: 0;
+	  height: 0;
+	  border-left: 1.5vw solid transparent;
+	  border-right: -5.5vw solid transparent;
+	  border-bottom: 3vw solid red;
+	  position: absolute;
+	  top: 19.8vw;
+	  left: 52vw;
+	  transform: rotate(-360deg);
+	  transform: skew(2deg, 40deg);
+
+  	}
+  
+  
+    .catw {
+
+	  width: 0;
+	  height: 0;
+	  border-left: 1.5vw solid transparent;
+	  border-right: -5.5vw solid transparent;
+	  border-bottom: 3vw solid white;
+	  position: absolute;
+	  top: 19.8vw;
+	  left: 52.5vw;
+	  transform: rotate(-360deg);
+	  transform: skew(1deg, 43deg);
+	  
+    }
+  
+  .catearss {
+  
+	  border-bottom: 2vw solid red;
+	  width: 0;
+	  height: 0;
+	  border-left: 1.3vw solid transparent;
+	  border-bottom: 2vw solid red;
+	  border-bottom: 3vw solid red;
+	  position: absolute;
+	  top: 19.8vw;
+	  left: 49vw;
+	  transform: rotate(-360deg);
+	  transform: skew(14deg, -21deg);
+  
+    }
+  
+  
+  .catwhite {
+  
+	  width: 0;
+	  height: 0;
+	  border-left: 2.3vw solid transparent;
+	  border-right: -5.5vw solid transparent;
+	  border-bottom: 3vw solid white;
+	  position: absolute;
+	  top: 18.8vw;
+	  left: 48.9vw;
+	  transform: rotate(-360deg);
+	  transform: skew(36deg, -6deg);
+  
+    }
+  
+  
+   .cathead {
+	
+	  background-color: white;
+	  width: 8vw;
+	  height: 8vw;
+	  border-radius: 50%;
+	  top: 21vw;
+	  left: 48vw;
+	  position: absolute;
+  
+    }
+  
+  
+   .cateye {
+
+	  background-color: black;
+	  width: 1vw;
+	  height: 1vw;
+	  border-radius: 50%;
+	  top: 24.7vw;
+	  left: 51vw;
+	  position: absolute;
+	  transform: rotate(-360deg);
+	  transform: skew(-19deg, 23deg);
+    }
+  
+   .catnose {
+
+	  background-color: black;
+	  width: 0.6vw;
+	  height: 0.6vw;
+	  border-radius: 50%;
+	  top: 25.7vw;
+	  left: 48.5vw;
+	  position: absolute;
+	  transform: rotate(-360deg);
+	  transform: skew(0deg, 30deg);
+    }
+  
+  
+  
+   .catmouthh { 
+  
+	  background-color: black;
+	  width: 0.2vw;
+	  height: 0.9vw;
+	  transform: rotate(-28deg);
+	  rotate: 330deg;
+	  top: 26vw;
+	  left: 49vw;
+	  position: absolute;
+	
+	}
+  
+	.catmouth { 
+  
+	  background-color: black;
+	  width: 0.2vw;
+	  height: 0.9vw;
+	  transform: rotate(-28deg);
+	  rotate: 330deg;
+	  top: 26vw;
+	  left: 49vw;
+	  position: absolute;
+	
+	}
+  
+  
+  
+  .catbody {
+
+	  width: 8vw;
+	  height: 10vw;
+	  background: white;
+	  border-radius: 45vw / 50vw;
+	  position: absolute;
+	  top: 26.8vw;
+	  left: 49vw;
+	
+	}
+
+
+  /* Perfume */
+
+
+
+  /* Mushroom Lamp */
+
+
+
+  /* Egg */
+
+
+
+
+  
+
+
+
   /* Your CSS goes here */
   
   .vase {
@@ -52,7 +239,7 @@ body {
 	  top: 20vw;
 	  left: 58vw;
 	  position: absolute;
-	  }
+	  } 
   
 	  .flower3 {
 	  background-color: green;
@@ -130,33 +317,7 @@ body {
   
 	}
   
-	 .top {  
-  
-	  border-bottom: 2vw solid #ECEDED;
-	  border-left: 5vw solid transparent;
-	  border-right: 0.7vw solid transparent;
-	  height: 0;
-	  width: 4vw;
-	  background: transparent;
-	  position: absolute;
-	  top: 14.8vw;
-	  left: 41vw;
-	  transform: rotate(-360deg);
-	  transform: skew(66deg, 0deg);
-  
-	}
-  
-	.front {  
-  
-		width: 8.9vw;
-	  height: 16vw;
-	  background: #B1B2B3;
-	  position: absolute;
-	  top: 16.8vw;
-	  left: 43.3vw;
-  
-	}
-  
+	 
   
   
   
@@ -186,140 +347,7 @@ body {
 	}
   
   
-  .catears {
-  
-	  width: 0;
-	  height: 0;
-	  border-left: 1.5vw solid transparent;
-	  border-right: -5.5vw solid transparent;
-	  border-bottom: 3vw solid red;
-	  position: absolute;
-	  top: 19.8vw;
-	  left: 52vw;
-	  transform: rotate(-360deg);
-	  transform: skew(2deg, 40deg);
-  
-  }
-  
-  
-  .catw {
-  
-		 width: 0;
-	  height: 0;
-	  border-left: 1.5vw solid transparent;
-	  border-right: -5.5vw solid transparent;
-	  border-bottom: 3vw solid white;
-	  position: absolute;
-	  top: 19.8vw;
-	  left: 52.5vw;
-	  transform: rotate(-360deg);
-	  transform: skew(1deg, 43deg);
-  
-  }
-  
-  .catearss {
-  
-	 border-bottom: 2vw solid red;
-	  width: 0;
-	  height: 0;
-	  border-left: 1.3vw solid transparent;
-	  border-bottom: 2vw solid red;
-	  border-bottom: 3vw solid red;
-	  position: absolute;
-	  top: 19.8vw;
-	  left: 49vw;
-	  transform: rotate(-360deg);
-	  transform: skew(14deg, -21deg);
-  
-  }
-  
-  
-  .catwhite {
-  
-	  width: 0;
-	  height: 0;
-	  border-left: 2.3vw solid transparent;
-	  border-right: -5.5vw solid transparent;
-	  border-bottom: 3vw solid white;
-	  position: absolute;
-	  top: 18.8vw;
-	  left: 48.9vw;
-	  transform: rotate(-360deg);
-	  transform: skew(36deg, -6deg);
-  
-  }
-  
-  
-   .cathead {
-	  background-color: white;
-	  width: 8vw;
-	  height: 8vw;
-	  border-radius: 50%;
-	  top: 21vw;
-	  left: 48vw;
-	  position: absolute;
-  
-   }
-  
-  
-   .cateye {
-	  background-color: black;
-	  width: 1vw;
-	  height: 1vw;
-	  border-radius: 50%;
-	  top: 24.7vw;
-	  left: 51vw;
-	  position: absolute;
-	  transform: rotate(-360deg);
-	  transform: skew(-19deg, 23deg);
-   }
-  
-   .catnose {
-		 background-color: black;
-	  width: 0.6vw;
-	  height: 0.6vw;
-	  border-radius: 50%;
-	  top: 25.7vw;
-	  left: 48.5vw;
-	  position: absolute;
-	  transform: rotate(-360deg);
-	  transform: skew(0deg, 30deg);
-   }
-  
-  
-  
-   .catmouthh { 
-  
-		 background-color: black;
-	  width: 0.2vw;
-	  height: 0.9vw;
-	  transform: rotate(-28deg);
-	  rotate: 330deg;
-	  top: 26vw;
-	  left: 49vw;
-	  position: absolute;}
-  
-	   .catmouth { 
-  
-		 background-color: black;
-	  width: 0.2vw;
-	  height: 0.9vw;
-	  transform: rotate(-28deg);
-	  rotate: 330deg;
-	  top: 26vw;
-	  left: 49vw;
-	  position: absolute;}
-  
-  
-  
-  .catbody {
-		width: 8vw;
-	  height: 10vw;
-	  background: white;
-	  border-radius: 45vw / 50vw;
-	  position: absolute;
-	  top: 26.8vw;
-	  left: 49vw;}
+ 
   
    .camera {
 	   width: 8vw;
@@ -375,12 +403,4 @@ body {
 	  
    }
   
-  .table {
-		width: 30vw;
-	  height: 30vw;
-	  transform: skew(-320deg);
-	  background: #ffffff;
-	  position: absolute;
-	  top: 20vw;
-	  left: 40vw;
-	  }
+ 
