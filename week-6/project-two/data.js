@@ -8,7 +8,7 @@ const collection = [
         'category': 'Science'
 
     }
-    {
+    ,{
 
         'title': 'Lorem Ipsum',
         'url': 'https://wikipedia.org',
@@ -16,7 +16,7 @@ const collection = [
         'category': 'Science'
 
     }
-    {
+    ,{
 
         'title': 'Lorem Ipsum',
         'url': 'https://wikipedia.org',
@@ -24,7 +24,7 @@ const collection = [
         'category': 'Science'
 
     }
-    {
+    ,{
 
         'title': 'Lorem Ipsum',
         'url': 'https://wikipedia.org',
