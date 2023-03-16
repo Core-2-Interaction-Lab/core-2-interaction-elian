@@ -1,0 +1,233 @@
+
+body {
+    background-color: #00122e;
+}
+
+.flexbox {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+    
+/* WIKIPEDIA */
+.wikipedia a {
+    position: absolute;
+    width: 799px;
+    height: 177px;
+    left: 94px;
+    top: 55px;
+    /* font styling */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 160px;
+    line-height: 76px;
+    /* or 48% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.132em;
+
+    color: #FFFFFF;
+}
+
+.wikipedia a:hover {
+    color: #d5d3d3;
+}
+
+
+
+
+/* ..... READER */
+.dots {
+    position: absolute;
+    width: 152px;
+    height: 95px;
+    left: 120px;
+    top: 232px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 49px;
+    line-height: 76px;
+    /* or 155% */
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.24em;
+
+    color: #C6ECF4;
+}
+
+.reader {
+    position: absolute;
+    width: 481px;
+    height: 110px;
+    left: 235px;
+    top: 184px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 160px;
+    line-height: 76px;
+    /* or 48% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.114em;
+
+    color: #C6ECF4;
+}
+
+/* Group 2 */
+.paragraph1 {
+    position: absolute;
+    text-align: left;
+    width: 540px;
+    height: 249px;
+    left: 870px;
+    top: 64px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 230%;
+}
+
+
+
+
+/* Gradient Boxes */
+
+.box1 {
+    position: absolute;
+    width: 634px;
+    height: 491px;
+    left: 86px;
+    top: 427px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box2 {
+    position: absolute;
+    width: 635px;
+    height: 491px;
+    left: 781px;
+    top: 427px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box3 {
+    position: absolute;
+    width: 635px;
+    height: 492px;
+    left: 85px;
+    top: 969px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box4 {
+    position: absolute;
+    width: 635px;
+    height: 492px;
+    left: 781px;
+    top: 969px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box5 {
+    position: absolute;
+    width: 634px;
+    height: 491px;
+    left: 85px;
+    top: 1512px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box6 {
+    position: absolute;
+    width: 635px;
+    height: 491px;
+    left: 781px;
+    top: 1512px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box7 {
+    position: absolute;
+    width: 635px;
+    height: 491px;
+    left: 85px;
+    top: 2054px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box8 {
+    position: absolute;
+    width: 635px;
+    height: 491px;
+    left: 781px;
+    top: 2054px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box9 {
+    position: absolute;
+    width: 635px;
+    height: 492px;
+    left: 85px;
+    top: 2596px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box10 {
+    position: absolute;
+    width: 635px;
+    height: 492px;
+    left: 781px;
+    top: 2596px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+    /* Card gradient */
+.box11 {
+    position: absolute;
+    width: 635px;
+    height: 491px;
+    left: 85px;
+    top: 3139px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+.box12 {
+    position: absolute;
+    width: 635px;
+    height: 491px;
+    left: 781px;
+    top: 3139px;
+
+    background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
+}
+
+
+
+
+
