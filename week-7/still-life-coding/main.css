@@ -1,10 +1,6 @@
-/* Background */
-body {
-	position: absolute;
-	width: 1505.5px;
-	height: 1420px;
 
-	background-color: linear-gradient(359.4deg, #00B2FF 0.49%, #82D9FF 42.25%, #CFF1FF 57.71%, #FFFFFF 80.91%);
+body {
+    background: linear-gradient( #DFF9FF, #abcdd4);
 }
 
 .flexbox {
@@ -12,220 +8,395 @@ body {
     position: relative;
     flex-wrap: wrap;
 }
+    
+/* WIKIPEDIA */
+.still {
+    
+    position: absolute;
+    width: 884px;
+    height: 220px;
+    left: 94px;
+    top: 67px;
+
+    /* font styling */
+    font-family: Arial;
+    font-style: normal;
+    font-size: 272px;
+    line-height: 104px;
+    /* or 34% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -30px;
+    
+    
+
+    color: #ffffff;
+
+}
+
+.coding {
+    position: absolute;
+    width: 963px;
+    height: 98px;
+    left: 494px;
+    top: 127px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 269px;
+    line-height: 76px;
+    /* or 28% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.13em;
+
+    color: #FFFFFF;
+
+}
+
+/* life */
+.life {
+    /* Life */
+
+    position: absolute;
+    width: 492px;
+    height: 277px;
+    left: 350px;
+    top: 30px;
+
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 222px;
+    line-height: 76px;
+    /* or 30% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.135em;
+
+    color: #00567a;
+}
+
+.top {
+    position: absolute;
+    width: 1142px;
+    height: 500px;
+    left: 172.5px;
+    top: 900px;
+    transform: skew(20deg);
+
+    background: radial-gradient(50% 50% at 50% 50%, #989898 05%, #FFFFFF 150%);
+}
+
+.corner {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 18px solid transparent;
+	border-right: 35px solid transparent;
+    top: 900px;
+    left: 64.5px;
+    
+    border-bottom: 50px solid rgb(255, 255, 255);
+}
+
+.side {
+    position: absolute;
+    width: 47px;
+    height: 500px;
+    top: 947px;
+    left: 155px;
+    transform: skew(-160deg);
+
+    background: linear-gradient(220.54deg, #FFFFFF 19.12%, #8A8A8A 92.09%);
+}
+
+    /* Table Front */
+.front {
+    position: absolute;
+    width: 1142px;
+    height: 47px;
+    top: 1400px;
+    left: 255px;
+    transform: skew(-20deg);
+    
+    background: linear-gradient(150deg, #494949 -16.91%, #FFFFFF 200.57%);
+    
+}   
+
+.fabric {
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 270px;
+    top: 930px;
+    transform: skew(-200deg);
+    -webkit-transform: rotate(10deg);
+
+    background: #3285A9;
+    border: 1px solid #297C9F;
+    box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.ball {
+    position: absolute;
+    width: 225px;
+    height: 224px;
+    left: 307px;
+    top: 797px;
+    border-radius: 50%;
+
+    background: #020202;
+    box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.gleam1 {
+    left: 332.75px;
+    top: 857.17px;
+    position: absolute;
+    height: 70px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+
+}
+.gleam2 {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 2px solid transparent;
+	border-right: 15px solid transparent;
+    top: 910px;
+    left: 334.5px;
+    -webkit-transform: rotate(-180deg);
+    
+    border-bottom: 50px solid rgb(255, 255, 255);
+}
+
+.display {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 392px;
+    top: 848px;
+    border-radius: 50%;
+
+    background: #141414;
+    border: 2px solid #2B2A2A;
+
+}
+
+.tape {
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    left: 744px;
+    top: 862px;
+    border-radius: 50%;
+
+    background: radial-gradient(#2564C2, darkblue);
+    box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.roll {
+    position: absolute;
+    width: 102px;
+    height: 103px;
+    left: 787px;
+    top: 908px;
+
+    background: #AC9762;
+    border-radius: 50%;
+    
+    box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cutout {
+    position: absolute;
+    width: 87px;
+    height: 88px;
+    left: 794px;
+    top: 916px;
+    border-radius: 50%;
+    
+    background: #b7b7b7;
+}
+
+.perfume1 {
+    position: absolute;
+    width: 91.5px;
+    height: 20px;
+    left: 463px;
+    top: 977px;
+    transform: skew(-45deg);
+
+    background: #A79C61;
+}
+
+.perfume2 {
+    position: absolute;
+    width: 35px;
+    height: 184px;
+    left: 530px;
+    top: 977px;
+    
+    background: linear-gradient(178.34deg, #9C904F 1.41%, #CCBE74 97.7%);
+}
+
+.perfume3 {
+    position: absolute;
+    width: 91px;
+    height: 164px;
+    left: 453px;
+    top: 997px;
+    
+    background: linear-gradient(180deg, #9A8E4E 0%, #D6C77C 100%);
+    box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+.cap1 {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: 476px;
+    top: 922px;
+
+    background: radial-gradient(80.56% 80.56% at 50% 19.44%, #EBE4C8 0%, #BBA774 100%);
+    border-radius: 50%;
+    
+    
+     
+}
+
+.cap2 {
+    position: absolute;
+    width: 72px;
+    height: 32px;
+    left: 476px;
+    top: 956px;
+    
+    background: radial-gradient(100% 100% at 50% 0%, #DBD0AC 0%, #D3C69F 29.69%, #B8A574 73.44%, #AC9762 100%);
+}
+
+.cap3 {
+    position: absolute;
+    width: 72px;
+    height: 13px;
+    left: 476px;
+    top: 981px;
+    border-radius: 50%;
+    
+    background: #AC9762;
+}
+
+.base {
+    position: absolute;
+    width: 154px;
+    height: 394px;
+    left: 908px;
+    top: 783px;
+    
+    background: linear-gradient(180deg, #FCFF64 7.29%, #FFD300 23.96%, #FAF6E3 81.77%);
+    box-shadow: 0px 100px 200px #FFD300;
+}
+
+.lamp1 {
+    position: absolute;
+    width: 334px;
+    height: 187px;
+    left: 817px;
+    top: 606px;
+    border-radius: 50%;
+    
+    background: radial-gradient(100% 100% at 50% 0%, #C4B881 0%, #E2DBB8 35.42%, #F2D85B 60.42%, #FAF6E3 83.85%);
+}
+.lamp2 {
+    position: absolute;
+    width: 334px;
+    height: 85px;
+    left: 817px;
+    top: 693px;
+    
+    background: radial-gradient(100% 100% at 50% 0%, #E6DAA0 2.08%, #F2D85E 26.04%, #F4DE78 62.5%, #D9CFA2 100%);
+}
+.lamp3 {
+    position: absolute;
+    width: 335px;
+    height: 45px;
+    left: 816px;
+    top: 755px;
+    border-radius: 50%;
+    
+    background: #D9CFA2;
+    box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
+}
+.egg {
+    position: absolute;
+    width: 428px;
+    height: 295px;
+    left: 530px;
+    top: 1013px;
+    
+    background: radial-gradient(42.77% 42.58% at 41.1% 47.69%, #E8E1C3 0%, #B8B193 42.71%, #A79F82 61.98%, #9D9575 80.73%, #948B69 94.27%, #928865 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    
+    border-radius: 50%;
+  
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end {
+    position: absolute;
+    width: 877px;
+    height: 47px;
+    top: 1700px;
+    
+
+
+}
+.eh {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(187, 220, 235);
+    
+}
+ 
 
-/* Table Top */
 
-position: absolute;
-width: 1142px;
-height: 287.5px;
 
-background: radial-gradient(50% 50% at 50% 50%, #B1B1B1 0%, #FFFFFF 100%);
 
 
-/* Table Front */
-
-position: absolute;
-width: 877px;
-height: 47px;
-
-background: linear-gradient(180deg, #494949 -131.91%, #FFFFFF 309.57%);
-
-
-/* CODING */
-
-position: absolute;
-width: 481px;
-height: 110px;
-
-font-family: 'Assistant';
-font-style: normal;
-font-weight: 800;
-font-size: 160px;
-line-height: 76px;
-/* or 48% */
-display: flex;
-align-items: center;
-letter-spacing: -0.13em;
-
-color: #487F8B;
-
-
-
-/* STILL */
-
-position: absolute;
-width: 884px;
-height: 220px;
-
-font-family: 'Assistant';
-font-style: normal;
-font-weight: 200;
-font-size: 302px;
-line-height: 104px;
-/* or 34% */
-display: flex;
-align-items: center;
-letter-spacing: -0.295em;
-
-color: #C6ECF4;
-
-
-
-/* Table Left */
-
-position: absolute;
-width: 266px;
-height: 334px;
-
-background: linear-gradient(220.54deg, #FFFFFF 19.12%, #8A8A8A 92.09%);
-
-
-/* Fabric */
-
-position: absolute;
-width: 227.5px;
-height: 60px;
-
-background: #3285A9;
-border: 1px solid #297C9F;
-box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
-
-
-/* sphere */
-
-position: absolute;
-width: 124px;
-height: 123px;
-
-background: #020202;
-box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
-
-
-/* gleam */
-
-position: absolute;
-width: 15px;
-height: 49px;
-
-background: #E0E0E0;
-transform: rotate(6.32deg);
-
-
-/* display */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 67px;
-height: 67px;
-
-background: #141414;
-border: 2px solid #2B2A2A;
-
-
-/* center */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 114px;
-height: 114px;
-
-border: 20px solid #AC9762;
-filter: drop-shadow(-40px 30px 40px rgba(0, 0, 0, 0.1));
-
-
-/* tape */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 124px;
-height: 124px;
-
-filter: drop-shadow(-40px 30px 40px rgba(0, 0, 0, 0.1));
-
-
-/* Rectangle 1 */
-
-position: absolute;
-width: 50px;
-height: 90px;
-
-background: linear-gradient(180deg, #9A8E4E 0%, #D6C77C 100%);
-box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
-
-
-/* Vector 1 */
-
-position: absolute;
-width: 65px;
-height: 11px;
-
-background: #A79C61;
-
-
-/* Vector 2 */
-
-position: absolute;
-width: 15px;
-height: 100px;
-
-background: linear-gradient(178.34deg, #9C904F 1.41%, #CCBE74 97.7%);
-
-
-/* Vector 3 */
-
-position: absolute;
-width: 44px;
-height: 39px;
-
-background: radial-gradient(89.29% 89.29% at 50% 50%, #FFFCEA 0%, #B7B190 86.47%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-
-
-/* Vector 4 */
-
-position: absolute;
-width: 84.5px;
-height: 216.25px;
-
-background: linear-gradient(180deg, #FCFF64 7.29%, #FFD300 23.96%, #FAF6E3 81.77%);
-box-shadow: 0px 100px 200px #FFD300;
-
-
-/* Vector 5 */
-
-position: absolute;
-width: 183.5px;
-height: 116.94px;
-
-background: radial-gradient(109.52% 85.98% at 49.86% 14.02%, #8E8451 0%, #D3CFB5 37.5%, #BBA876 76.56%, #AC7F3C 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-box-shadow: 0px 100px 90px rgba(255, 211, 0, 0.5);
-
-
-/* Egg */
-
-position: absolute;
-width: 229px;
-height: 137px;
-
-background: radial-gradient(50.82% 56.43% at 31.99% 50.14%, #DCD6B7 0%, #B4AA77 51.56%, #9C904F 100%);
-
-
-/* Life */
-
-position: absolute;
-width: 492px;
-height: 94px;
-
-font-family: 'Assistant';
-font-style: normal;
-font-weight: 800;
-font-size: 160px;
-line-height: 76px;
-/* or 48% */
-display: flex;
-align-items: center;
-letter-spacing: -0.13em;
-
-color: #C6ECF4;
