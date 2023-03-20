@@ -1,0 +1,267 @@
+
+@media (min-width: 3in) {
+    body {
+        font-family: Arial;
+        width: 1506px;
+        height: 4900px;
+
+        background-color: white;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: space-evenly;
+        gap: 47.74px, 47.74px;
+    }
+
+     /* TEXT LOG */
+    .header {
+
+        position: fixed;
+        width: 495px;
+        height: 81px;
+        left: 170px;
+        top: 20px;
+
+        font-weight: bolder;
+        font-size: 141px;
+        /* or 77px */
+        letter-spacing: -0.205em;
+
+        color: #060709;
+
+        mix-blend-mode: normal;
+        text-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(255, 255, 255, 0.9);
+    
+    }
+ 
+    /* Navbar Main Bubble */
+    .nav {
+        position: fixed;
+    }
+
+    .mainBubble {
+        position: fixed;
+        width: 635px;
+        height: 50px;
+        left: 685px;
+        top: 40px;
+
+        background: #060709;
+        border-radius: 29px;
+    }
+
+    .timeline a {
+        position: fixed;
+        width: 81px;
+        height: 12px;
+        left: 704px;
+        top: 60px;
+        
+        text-decoration: none;
+        font-weight: light;
+        font-size: 21px;
+        line-height: 54.8%;
+        /* identical to box height, or 12px */
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.07em;
+        
+        color: #F0F0F0;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  
+    .timeline a:hover {
+        color: #55ff77;
+    }
+
+    .apps a {
+        position: fixed;
+        width: 48px;
+        height: 12px;
+        left: 884px;
+        top: 60px;
+        
+        text-decoration: none;
+        font-style: normal;
+        font-weight: light;
+        font-size: 21px;
+        line-height: 54.8%;
+        /* identical to box height, or 12px */
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.07em;
+        
+        color: #F0F0F0;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  
+    .apps a:hover {
+        color: #55a4ff;
+    }
+
+    .categories a {
+        position: fixed;
+        width: 99px;
+        height: 12px;
+        left: 1031px;
+        top: 60px;
+        
+        text-decoration: none;
+        font-style: normal;
+        font-weight: light;
+        font-size: 21px;
+        line-height: 54.8%;
+        /* identical to box height, or 12px */
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.07em;
+        
+        color: #F0F0F0;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  
+    .categories a:hover {
+        color: #ffd755;
+    }
+
+    .genders a {
+        position: fixed;
+        width: 79px;
+        height: 12px;
+        left: 1229px;
+        top: 60px;
+        
+        text-decoration: none;
+        font-style: normal;
+        font-weight: light;
+        font-size: 21px;
+        line-height: 54.8%;
+        /* identical to box height, or 12px */
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.07em;
+        
+        color: #F0F0F0;
+        
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  
+    .genders a:hover {
+        color: #ff55b5;
+    }
+
+    .img1 {
+        position: absolute;
+        order: 0;
+
+        width: 247.11px;
+        height: 525.47px;
+        left: 183px;
+        top: 260.07px;
+    }
+
+    .img2 {
+        position: absolute;
+        order: 1;
+
+        width: 247.11px;
+        height: 525.47px;
+        left: 480px;
+        top: 260.07px;
+    }
+
+    .img3 {
+        position: absolute;
+        order: 2;
+        width: 247.11px;
+        height: 525.47px;
+        left: 777px;
+        top: 260.07px;
+    } 
+    
+    .img4 {
+        position: absolute;
+        order: 3;
+
+        width: 247.11px;
+        height: 525.47px;
+        left: 1074px;
+        top: 260.07px;
+    } 
+    
+    .img5 {
+        position: absolute;
+        order: 4;
+
+        width: 247.11px;
+        height: 525.47px;
+        left: 183px;
+        top: 832px;
+    } 
+    
+    .img6 {
+        position: absolute;
+        order: 5;
+
+        width: 247.11px;
+        height: 525.47px;
+        left: 480px;
+        top: 832px;
+    } 
+    
+    .img7 {
+        position: absolute;
+        order: 6;
+   
+        width: 247.11px;
+        height: 525.47px;
+        left: 777px;
+        top: 832px;
+    } 
+    
+    .img8 {
+        position: absolute;
+        order: 7;
+
+        width: 247.11px;
+        height: 525.47px;
+        left: 1074px;
+        top: 832px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

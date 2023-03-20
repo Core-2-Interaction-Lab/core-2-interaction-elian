@@ -1,6 +1,9 @@
 
 body {
     background-color: #00122e;
+    max-width: 1280px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 3745px;
 }
 
 .flexbox {
@@ -12,10 +15,10 @@ body {
 /* WIKIPEDIA */
 .wikipedia a {
     position: absolute;
-    width: 799px;
-    height: 177px;
-    left: 94px;
-    top: 55px;
+    width: 726px;
+    height: 161px;
+    left: 43px;
+    top: 55px;  
     /* font styling */
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -41,30 +44,31 @@ body {
 /* ..... READER */
 .dots {
     position: absolute;
-    width: 152px;
-    height: 95px;
-    left: 120px;
-    top: 232px;
+    width: 138px;
+    height: 22px;
+    left: 70px;
+    top: 289px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bolder;
-    font-size: 49px;
+    font-size: 60px;
     line-height: 76px;
     /* or 155% */
     display: flex;
     align-items: flex-end;
-    letter-spacing: 0.24em;
+    letter-spacing: 12px;
 
     color: #C6ECF4;
 }
 
 .reader {
     position: absolute;
-    width: 481px;
-    height: 110px;
-    left: 235px;
-    top: 184px;
+    width: 541px;
+    height: 102px;
+    left: 196px;
+    top: 159px;
+
 
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -79,19 +83,138 @@ body {
     color: #C6ECF4;
 }
 
-/* Group 2 */
-.paragraph1 {
-    position: absolute;
-    text-align: left;
-    width: 540px;
-    height: 249px;
-    left: 870px;
-    top: 64px;
+/* Paragraph 1 */
+.paragraph1 a {
     
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    line-height: 230%;
+    /* Paragraph 1 */
+
+    position: absolute;
+    width: 546px;
+    height: 231px;
+    left: 870px;
+    top: 69px;
+
+    font-size: 22px;
+    line-height: 34.5px;
+    /* or 122% */
+    text-decoration: none;
+
+    color: #D3CFCF;
+
 }
+ 
+.paragraph1 a:hover {
+    color: #7d80ab;
+}
+
+.from {
+    /* from */
+
+    position: absolute;
+    width: 49px;
+    height: 38px;
+    left: 60px;
+    top: 289px;
+
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 76px;
+    /* or 330% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.to {
+    /* from */
+
+    position: absolute;
+    width: 49px;
+    height: 38px;
+    left: 373px;
+    top: 290px;
+
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 76px;
+    /* or 330% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+/* Reticular Form */
+.article1 a {
+
+    position: absolute;
+    width: 474px;
+    height: 40px;
+    left: 120px;
+    top: 283px;
+
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 76px;
+    /* or 158% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.085em;
+    text-decoration: none;
+
+    color: rgba(85, 219, 249, 0.860699);
+}
+.article2 a {
+    width: 473px;
+    height: 40px;
+    left: 403px;
+    top: 284px;
+    position: absolute;
+
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 76px;
+    /* or 158% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.085em;
+    text-decoration: none;
+
+    color: rgba(0, 207, 189, 0.861);
+}
+
+
+
+
+.article1 a:hover, .article2 a:hover {
+    color: rgba(0, 94, 255, 0.861);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,10 +223,10 @@ body {
 
 .box1 {
     position: absolute;
-    width: 634px;
-    height: 491px;
-    left: 86px;
-    top: 427px;
+    width: 641px;
+    height: 496px;
+    left: 80px;
+    top: 392px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -111,10 +234,10 @@ body {
     /* Card gradient */
 .box2 {
     position: absolute;
-    width: 635px;
-    height: 491px;
-    left: 781px;
-    top: 427px;
+    width: 642px;
+    height: 496px;
+    left: 783px;
+    top: 392px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -122,10 +245,11 @@ body {
     /* Card gradient */
 .box3 {
     position: absolute;
-    width: 635px;
-    height: 492px;
-    left: 85px;
-    top: 969px;
+    width: 642px;
+    height: 499px;
+    left: 79px;
+    top: 939px;
+    
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -133,10 +257,10 @@ body {
     /* Card gradient */
 .box4 {
     position: absolute;
-    width: 635px;
-    height: 492px;
-    left: 781px;
-    top: 969px;
+    width: 642px;
+    height: 499px;
+    left: 783px;
+    top: 939px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -144,10 +268,10 @@ body {
     /* Card gradient */
 .box5 {
     position: absolute;
-    width: 634px;
-    height: 491px;
-    left: 85px;
-    top: 1512px;
+    width: 641px;
+    height: 496px;
+    left: 79px;
+    top: 1489px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -155,10 +279,10 @@ body {
     /* Card gradient */
 .box6 {
     position: absolute;
-    width: 635px;
-    height: 491px;
-    left: 781px;
-    top: 1512px;
+    width: 642px;
+    height: 496px;
+    left: 783px;
+    top: 1489px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -166,10 +290,10 @@ body {
     /* Card gradient */
 .box7 {
     position: absolute;
-    width: 635px;
-    height: 491px;
-    left: 85px;
-    top: 2054px;
+    width: 642px;
+    height: 496px;
+    left: 79px;
+    top: 2037px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -177,10 +301,10 @@ body {
     /* Card gradient */
 .box8 {
     position: absolute;
-    width: 635px;
-    height: 491px;
-    left: 781px;
-    top: 2054px;
+    width: 642px;
+    height: 496px;
+    left: 783px;
+    top: 2037px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -188,10 +312,10 @@ body {
     /* Card gradient */
 .box9 {
     position: absolute;
-    width: 635px;
-    height: 492px;
-    left: 85px;
-    top: 2596px;
+    width: 642px;
+    height: 498px;
+    left: 79px;
+    top: 2585px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -199,10 +323,10 @@ body {
     /* Card gradient */
 .box10 {
     position: absolute;
-    width: 635px;
-    height: 492px;
-    left: 781px;
-    top: 2596px;
+    width: 642px;
+    height: 498px;
+    left: 783px;
+    top: 2585px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
@@ -210,24 +334,170 @@ body {
     /* Card gradient */
 .box11 {
     position: absolute;
-    width: 635px;
-    height: 491px;
-    left: 85px;
-    top: 3139px;
+    width: 642px;
+    height: 496px;
+    left: 79px;
+    top: 3134px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
 .box12 {
     position: absolute;
-    width: 635px;
-    height: 491px;
-    left: 781px;
-    top: 3139px;
+    width: 642px;
+    height: 496px;
+    left: 783px;
+    top: 3134px;
 
     background: linear-gradient(180deg, #DFF9FF 8.85%, #C6ECF4 39.58%, rgba(85, 219, 249, 0.860699) 71.35%, rgba(0, 206, 252, 0.755208) 99.99%);
 }
+ 
+.img1 {
+    position: absolute;
+    width: 601px;
+    height: 328px;
+    left: 101px;
+    top: 410px; 
+}
+.alt1 {
+    position: absolute;
+    width: 591px;
+    height: 63px;
+    left: 111px;
+    top: 738px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    /* or 124% */
+    letter-spacing: -0.04em;
+    
+    color: #9EEEFF;
+    
+}
 
+.title1 {
 
+    position: absolute;
+    width: 527px;
+    height: 45px;
+    left: 108px;
+    top: 746px;
 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 59px;
+    line-height: 76px;
+    /* or 129% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.085em;
 
+    color: #00122E;
+
+}
+.url1 a {
+    position: absolute;
+    width: 516px;
+    height: 34px;
+    left: 111px;
+    top: 844px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    /* or 175% */
+    letter-spacing: -0.1em;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+
+.url1 a:hover, .url2 a:hover, .url3 a:hover, .url4 a:hover, .url5 a:hover, .url6 a:hover, .url7 a:hover, .url8 a:hover, .url9 a:hover, .url10 a:hover, .url11 a:hover, .url12 a:hover {
+    color: #1a40ff;
+}
+
+.date1 {
+    position: absolute;
+    width: 641px;
+    height: 22px;
+    left: 80px;
+    top: 875px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 76px;
+    /* or 585% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.06em;
+
+    color: #0089A7;
+
+}
+
+.id1 {
+    position: absolute;
+    width: 48px;
+    height: 40px;
+    left: 680px;
+    top: 776px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 76px;
+    /* or 230% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.125em;
+
+    color: rgba(0, 84, 162, 0.860699);
+
+}
+
+.name1 {
+    position: absolute;
+    width: 125px;
+    height: 41px;
+    left: 670px;
+    top: 823px;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 76px;
+    /* or 422% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.06em;
+    
+    color: rgba(0, 84, 162, 0.860699);
+    
+}
+
+.categories1 {
+    position: absolute;
+    width: 635px;
+    height: 21px;
+    left: 650px;
+    top: 875px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 76px;
+    /* or 422% */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.06em;
+    
+    color: rgba(85, 219, 249, 0.860699);
+    
+}
 
