@@ -52,6 +52,7 @@
 
         background: #060709;
         border-radius: 29px;
+        box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px #FFFFFF;
     }
 
     .timeline a {
