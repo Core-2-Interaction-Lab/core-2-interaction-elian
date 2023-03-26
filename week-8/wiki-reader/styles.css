@@ -1,18 +1,18 @@
 
 :root {
-	--spacing: 1em;
+	--spacing: 15px;
 }
 
 body {
 	font-family: Arial;
-	padding: var(--spacing) var(--spacing) calc(4 * var(--spacing));
 	cursor: default;
+	max-width: 1280;
 
 	background-color: #00122e;
     font-family: Arial, Helvetica, sans-serif;
-	padding-top: 80px;
-	padding-left: 80px;
-	padding-right: 50px;
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 .wikipedia {
