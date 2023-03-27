@@ -240,7 +240,7 @@ img {
 	object-fit: cover;
 }
 
-@media (max-width: 1420px) {
+@media (max-width: 1000px) {
 	ul {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
