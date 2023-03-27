@@ -12,21 +12,25 @@ const renderItems = (collection) => {
 		listItem.appendChild(itemID) // And add it to the `li`!
 
 		// You can make each element inside of that…
-		const itemTitle = document.createElement('h2') // Make an `h2`
-		itemTitle.innerHTML = item.title // Put the JSON title inside
-		listItem.appendChild(itemTitle) // And add it to the `li`!
-
-		const itemURL = document.createElement('h3') // Make an `h2`
-		itemURL.innerHTML = item.URL // Put the JSON title inside
-		listItem.appendChild(itemURL) // And add it to the `li`!
-
-		const itemInstructions = document.createElement('p') // Make an `h2`
-		itemInstructions.innerHTML = item.instructions // Put the JSON title inside
-		listItem.appendChild(itemInstructions) // And add it to the `li`!
-
-		const itemCategory = document.createElement('h6') // Make an `h2`
+		const itemCategory = document.createElement('h2') // Make an `h2`
 		itemCategory.innerHTML = item.category // Put the JSON title inside
 		listItem.appendChild(itemCategory) // And add it to the `li`!
+
+		const itemDate = document.createElement('h3') // Make an `h2`
+		itemDate.innerHTML = item.date // Put the JSON title inside
+		listItem.appendChild(itemDate) // And add it to the `li`!
+
+		const itemTime = document.createElement('p') // Make an `h2`
+		itemTime.innerHTML = item.time // Put the JSON title inside
+		listItem.appendChild(itemTime) // And add it to the `li`!
+
+		const itemGender = document.createElement('h6') // Make an `h2`
+		itemGender.innerHTML = item.gender // Put the JSON title inside
+		listItem.appendChild(itemGender) // And add it to the `li`!
+
+		const itemLength = document.createElement('h4') // Make an `h2`
+		itemLength.innerHTML = item.length// Put the JSON title inside
+		listItem.appendChild(itemLength) // And add it to the `li`!
 
 		const itemImage = document.createElement('img') // And an image
 		itemImage.src = item.image // Set the `src` attribute from the JSON
@@ -36,16 +40,11 @@ const renderItems = (collection) => {
 		// This can get annoying, so we can use “template literals” instead
 		const itemDetails =
 			`
-				<h4>${item.caption}</h4>
+				<h4>${item.app}</h4>
 				<details>
-					<summary>More Info.</summary><br><br>
-					<h5>Found from: ${item.from}</h5>
-					<h5 class="url">${item.fromURL}</h5><br>
-					<h5>Led to: ${item.to}</h5>
-					<h5 class="url">${item.toURL}</h5><br>
+					<summary>Transcript</summary><br><br>
+					<h5>${item.transcript}</h5>
 				</details>
-				<h6 class="edit">Last edit at time of access: ${item.edit}</h6>
-				<h6 class="name">Found by: ${item.name}</h6><br><br><br>
 
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
