@@ -18,72 +18,72 @@ body {
 
 
 /* Navbar */
-
-.navbar, .headerbar {
-	background: #002946;
-	position: fixed; 
-	width: 430.5px; 
-	font-weight: bolder;
-	margin-top: -50px;
-}
-.navbar a, .headerbar a {
-	float: left;
-	background: #002946;
-	text-align: center;
-	padding: 15px;
-	text-decoration: none; 
-	font-size: 25px;
-}
-.navbar a:hover, .headerbar a:hover {
-	background: #002946;
-}
-	/* Individual letter styles */
-	.page1 a{
-		background: #005E91;
-		padding-left: 63px;
-		padding-right: 50px;
-		padding-top: 20px;
-		padding-bottom: 20.5px;
-		width: 98.76px;
-
-		font-weight: 700;
-		font-size: 21px;
-		
-		display: flex;
-		align-items: center;
-		letter-spacing: -0.07em;
-		
-		color: #BBCFDE;
-		
+@media (max-width: 4in) {
+	.navbar, .headerbar {
+		background: #002946;
+		position: fixed; 
+		width: 430.5px; 
+		font-weight: bolder;
+		margin-top: -50px;
 	}
-	.page2 a{
-		background: #004577;
-
-		padding-left: 65px;	
-		padding-right: 55px;
-		padding-top: 28px;
-		padding-bottom: 28px;
-
-		width: 98.76px;
-		height: 5.71px;
-		
-		font-weight: 700;
-		font-size: 21px;
-		line-height: 54.8%;
-		/* or 12px */
-		display: flex;
-		align-items: center;
-		letter-spacing: -0.07em;
-		
-		color: #BBCFDE;
+	.navbar a, .headerbar a {
+		float: left;
+		background: #002946;
+		text-align: center;
+		padding: 15px;
+		text-decoration: none; 
+		font-size: 25px;
 	}
-		.page1 a:hover {
-			background: #002946;
+	.navbar a:hover, .headerbar a:hover {
+		background: #002946;
+	}
+		/* Individual letter styles */
+		.page1 a{
+			background: #005E91;
+			padding-left: 63px;
+			padding-right: 50px;
+			padding-top: 20px;
+			padding-bottom: 20.5px;
+			width: 98.76px;
+
+			font-weight: 700;
+			font-size: 21px;
+			
+			display: flex;
+			align-items: center;
+			letter-spacing: -0.07em;
+			
+			color: #BBCFDE;
+			
 		}
-		.page2 a:hover {
-			background: #002946;
+		.page2 a{
+			background: #004577;
+
+			padding-left: 65px;	
+			padding-right: 55px;
+			padding-top: 28px;
+			padding-bottom: 28px;
+
+			width: 98.76px;
+			height: 5.71px;
+			
+			font-weight: 700;
+			font-size: 21px;
+			line-height: 54.8%;
+			/* or 12px */
+			display: flex;
+			align-items: center;
+			letter-spacing: -0.07em;
+			
+			color: #BBCFDE;
 		}
-		
+			.page1 a:hover {
+				background: #002946;
+			}
+			.page2 a:hover {
+				background: #002946;
+			}
+}	
 
 
 .tagline {
