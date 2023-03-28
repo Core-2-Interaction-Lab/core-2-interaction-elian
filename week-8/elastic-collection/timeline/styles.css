@@ -7,7 +7,7 @@
 body {
 	font-family: Arial;
 	cursor: default;
-	max-width: 1505px;
+	max-width: 1550px;
 	height: 11000px;
 	
 	background: #002946;
@@ -17,20 +17,19 @@ body {
 }
 
 
-/* Navbar */
+  /*navbar 2*/
 
 	.navbar, .headerbar {
 		background: #002946;
 		position: fixed; 
-		width: 430.5px; 
+		width: 120px;
 		font-weight: bolder;
-		margin-top: -50px;
+		margin-top: -10px;
 	}
 	.navbar a, .headerbar a {
-		float: left;
+		float: column;
 		background: #002946;
 		text-align: center;
-		padding: 15px;
 		text-decoration: none; 
 		font-size: 25px;
 	}
@@ -40,11 +39,11 @@ body {
 		/* Individual letter styles */
 		.page1 a{
 			background: #005E91;
-			padding-left: 63px;
-			padding-right: 50px;
-			padding-top: 20px;
-			padding-bottom: 20.5px;
-			width: 98.76px;
+			padding-left: 34px;
+			padding-right: 36px;
+			padding-top: 50px;
+			padding-bottom: 53px;
+			max-width: 145px;
 
 			font-weight: 700;
 			font-size: 21px;
@@ -59,20 +58,17 @@ body {
 		.page2 a{
 			background: #004577;
 
-			padding-left: 65px;	
-			padding-right: 55px;
-			padding-top: 28px;
-			padding-bottom: 28px;
-
-			width: 98.76px;
-			height: 5.71px;
+			padding-top: 50px;
+			padding-left: 14px;
+			padding-bottom: 53px;
+			max-width: 145px;
+			
 			
 			font-weight: 700;
 			font-size: 21px;
-			line-height: 54.8%;
 			/* or 12px */
 			display: flex;
-			align-items: center;
+			text-align: center;
 			letter-spacing: -0.07em;
 			
 			color: #BBCFDE;
@@ -106,7 +102,7 @@ body {
 
 
 .textlog {
-	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-weight: bolder;
 	font-style: italic;
 
@@ -117,7 +113,8 @@ body {
 	align-items: center;
 	letter-spacing: -10px;
 
-	margin-top: 50px;
+	margin-top: 10px;
+	margin-left: 145px;
 	
 	color: #A3D7FF;
 
@@ -151,7 +148,7 @@ h2 {
 }
 
 p {
-	color: #1f3456;
+	color: #5f769a;
 	margin-left: 23px;
 }
 
@@ -179,7 +176,7 @@ h4 {
 
 h5 {
 	color: #0099ff;
-	font-size: 20px;
+	font-size: 15px;
 	margin-left: 60px;
 	margin-left: 23px;
 }
@@ -242,13 +239,13 @@ img {
 	object-fit: cover;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 	ul {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
 	ul {
 		grid-template-columns: 1fr 1fr;
 	}
