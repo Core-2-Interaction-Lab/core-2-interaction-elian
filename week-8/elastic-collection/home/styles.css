@@ -218,11 +218,11 @@ li {
 summary {
 	cursor: pointer;
 	color: aliceblue;
-	font-size: 30px;
+	font-size: 2vw;
 	font-weight: bold;
 
-	max-width: 290px;
-	margin-top: -30px;
+	max-width: 14vw;
+	margin-top: .5vw;
 }
 
 img {
