@@ -143,12 +143,12 @@ h1 {
 	font-style: normal;
     font-weight: bolder;
 	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 4vw;
+    font-size: 2vw;
 
-    color: rgba(255, 204, 84, 0.861);
+    color: rgba(255, 196, 0, 0.861);
 	margin-left: 1.5vw;
 	margin-bottom: -1vw;
-	letter-spacing: -10px;
+	letter-spacing: -.3vw;
 }
 
 h2 {
@@ -190,7 +190,7 @@ h4 {
 }
 
 h5 {
-	color: #ffecbe;
+	color: #003260;
 	font-size: 1.3vw;
 	margin-left: 1.5vw;
 }
@@ -199,7 +199,7 @@ h5 {
 h6 {
 	margin-top: .5vw;
 	margin-left: -.1vw;
-	color: #ffe645;
+	color: #fffbe2;
 	font-size: 1vw;
 	text-align: center;
 }
