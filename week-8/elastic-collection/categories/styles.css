@@ -7,83 +7,84 @@
 body {
 	font-family: Arial;
 	cursor: default;
-	max-width: 200%;
-	height: 9000px;
+	max-width: 100%;
+	height: 11000px;
 	
-	background: #BBCFDE;
+	background: #20A3B5;
+
     font-family: Arial, Helvetica, sans-serif;
 	margin-left: 7vw;
 	margin-left: 7vw;
 }
 
 
-/* Navbar */
+  /*navbar 2*/
 
 	.navbar, .headerbar {
-		background: #002946;
+		background: #463300;
 		position: fixed; 
-		width: 430.5px; 
-		font-weight: bolder;
-		margin-top: -50px;
+		width: 8vw;
+	    font-weight: bolder;
 	}
 	.navbar a, .headerbar a {
-		float: left;
-		background: #002946;
+		float: column;
+		background: #463300;
 		text-align: center;
-		padding: 15px;
 		text-decoration: none; 
-		font-size: 25px;
+		font-size: 5vw;
 	}
 	.navbar a:hover, .headerbar a:hover {
-		background: #002946;
+		background: #463300;
 	}
 		/* Individual letter styles */
 		.page1 a{
-			background: #005E91;
-			padding-left: 63px;
-			padding-right: 50px;
-			padding-top: 20px;
-			padding-bottom: 20.5px;
-			width: 98.76px;
+			background: #f9b236;
+			padding-left: 28.5%;
+			padding-right: 5.9vw;
+			padding-top: 55px;
+			padding-bottom: 55px;
+			max-width: 145px;
 
 			font-weight: 700;
-			font-size: 21px;
+			font-size: 1.3vw;
 			
 			display: flex;
 			align-items: center;
 			letter-spacing: -0.07em;
 			
-			color: #BBCFDE;
+			color: #ffffff;
 			
 		}
 		.page2 a{
-			background: #004577;
+			background: #c68100;
 
-			padding-left: 65px;	
-			padding-right: 55px;
-			padding-top: 28px;
-			padding-bottom: 28px;
-
-			width: 98.76px;
-			height: 5.71px;
+			padding-top: 55px;
+			padding-left: 13%;
+			padding-bottom: 55px;
+			padding-right: 7.24vw;
+			max-width: 145px;
+			
 			
 			font-weight: 700;
-			font-size: 21px;
-			line-height: 54.8%;
+			font-size: 1.3vw;
 			/* or 12px */
 			display: flex;
-			align-items: center;
+			text-align: center;
 			letter-spacing: -0.07em;
 			
-			color: #BBCFDE;
+			color: #ffffff;
 		}
 			.page1 a:hover {
-				background: #002946;
+				background: #faeabb;
+				color: #20A3B5;
+
 			}
 			.page2 a:hover {
-				background: #002946;
+				background: #faeabb;
+				color: #20A3B5;
+
 			}
-	
+
 
 
 .tagline {
@@ -96,32 +97,46 @@ body {
 	display: flex;
 	align-items: center;
 	letter-spacing: 3.5px;
+	max-width: 50vw;
 
-	margin-top: -2vw;
-	margin-left: 5vw;
+	margin-top: -1vw;
+	margin-left: 11vw;
 	
 	color: #007094;
 	
 }
 
-
 .textlog {
-	font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+	font-family: serif;
     font-weight: bolder;
+	font-style: italic;
 
 	font-size: 18vw;
-	max-width: 1000px;
 
 	display: flex;
 	align-items: center;
-	letter-spacing: -0.215em;
+	letter-spacing: -2vw;
 
-	margin-top: 3vw;
+	margin-left: 9.5vw;
 	
-	color: #002946;
+	color: #A3D7FF;
+
 	
 }
 
+
+.month {
+	margin-top: 8vw;
+	font-family: serif;
+	font-style: italic;
+	font-size: 14vw;
+	font-weight: bolder;
+
+	letter-spacing: -20px;
+	
+	color: #8db9c6;
+	
+}
 
 h1 {
 	font-style: normal;
@@ -149,7 +164,7 @@ h2 {
 }
 
 p {
-	color: #1f3456;
+	color: #acc8f4;
 	margin-left: 1.5vw;
 }
 
@@ -161,11 +176,11 @@ h3 {
     /* or 175% */
     letter-spacing: -0.1em;
 	margin-left: 1.5vw;
-    color: #cb7300;
+    color: #4c77bb;
 }
 
 h4 {
-	color: #687995;
+	color: #a2a7ae;
 	font-weight: lighter;
 	font-size: 1vw;
 
@@ -183,7 +198,7 @@ h5 {
 h6 {
 	margin-top: .5vw;
 	margin-left: -.1vw;
-	color: #0f798e;
+	color: #26c5e5;
 	font-size: 1vw;
 	text-align: center;
 }
@@ -234,16 +249,48 @@ img {
 	
 	object-fit: cover;
 }
+	
+
 
 
 @media (max-width: 1000px) {
+	.navbar, .headerbar {
+		position: fixed; 
+		
+		width: 15%;
+		}
+	
+		.navbar a, .headerbar a {
+		float: column;
+		display: block;
+		color: rgb(174, 174, 174);
+		text-align: center;
+		padding: 25px;
+		text-decoration: none; 
+		font-size: 10px;
+		font-weight: bolder;
+		}
+
+
+	
 
 	ul {
 		grid-template-columns: 1fr 1fr;
+	}
+	.tagline, .textlog {
+		margin-left: 18vw;
+		max-width: 50vw;
 	}
 }
 @media (max-width: 740px) {
 	ul {
 		grid-template-columns: 1fr;
 	}
+	.tagline {
+		max-width: 35vw;
+	}
 }
+
+
+
+
