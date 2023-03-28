@@ -14,36 +14,37 @@ body {
 
     font-family: Arial, Helvetica, sans-serif;
 	margin-left: 7vw;
-	margin-left: 7vw;
 }
 
 
   /*navbar 2*/
 
 	.navbar, .headerbar {
-		background: #463300;
+		background: #004161;
+		margin-left: -7vw;
 		position: fixed; 
-		width: 8vw;
+		width: 100%;
 	    font-weight: bolder;
+		margin-top: -3.5vw;
 	}
 	.navbar a, .headerbar a {
-		float: column;
-		background: #463300;
+		float: left;
+		background: #004161;
 		text-align: center;
 		text-decoration: none; 
 		font-size: 5vw;
 	}
 	.navbar a:hover, .headerbar a:hover {
-		background: #463300;
+		background: #004161;
 	}
 		/* Individual letter styles */
 		.page1 a{
-			background: #f9b236;
-			padding-left: 28.5%;
-			padding-right: 5.9vw;
-			padding-top: 55px;
-			padding-bottom: 55px;
+			background: #00233f;
 			max-width: 145px;
+			padding-top: 1.5vw;
+			padding-bottom: 1.5vw;
+			padding-left: 22%;
+			padding-right: 24.2vw;
 
 			font-weight: 700;
 			font-size: 1.3vw;
@@ -56,13 +57,13 @@ body {
 			
 		}
 		.page2 a{
-			background: #c68100;
-
-			padding-top: 55px;
-			padding-left: 13%;
-			padding-bottom: 55px;
-			padding-right: 7.24vw;
+			background: #005c8a;
 			max-width: 145px;
+			padding-top: 1.5vw;
+			padding-bottom: 1.5vw;
+			padding-left: 22vw;
+			padding-right: 24vw;
+			float: center;
 			
 			
 			font-weight: 700;
@@ -97,12 +98,11 @@ body {
 	display: flex;
 	align-items: center;
 	letter-spacing: 3.5px;
-	max-width: 50vw;
+	max-width: 55vw;
 
-	margin-top: -1vw;
-	margin-left: 11vw;
+	margin-top: -2.5vw;
 	
-	color: #007094;
+	color: #00553d;
 	
 }
 
@@ -117,24 +117,25 @@ body {
 	align-items: center;
 	letter-spacing: -2vw;
 
-	margin-left: 9.5vw;
+	margin-top: 3.5vw;
 	
-	color: #A3D7FF;
+	color:#9cf2ff;
 
 	
 }
 
 
-.month {
-	margin-top: 8vw;
-	font-family: serif;
+.categ {
+	margin-top: 2vw;
+	margin-bottom: 8vw;
+	font-family: 'Gill Sans';
 	font-style: italic;
-	font-size: 14vw;
+	font-size: 8vw;
 	font-weight: bolder;
 
-	letter-spacing: -20px;
+	letter-spacing: -.5VW;
 	
-	color: #8db9c6;
+	color: #003459;
 	
 }
 
@@ -144,7 +145,7 @@ h1 {
 	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 4vw;
 
-    color: rgba(0, 132, 255, 0.861);
+    color: rgba(255, 204, 84, 0.861);
 	margin-left: 1.5vw;
 	margin-bottom: -1vw;
 	letter-spacing: -10px;
@@ -164,7 +165,7 @@ h2 {
 }
 
 p {
-	color: #acc8f4;
+	color: #acf4e9;
 	margin-left: 1.5vw;
 }
 
@@ -176,11 +177,11 @@ h3 {
     /* or 175% */
     letter-spacing: -0.1em;
 	margin-left: 1.5vw;
-    color: #4c77bb;
+    color: #003f73;
 }
 
 h4 {
-	color: #a2a7ae;
+	color: #5a4200;
 	font-weight: lighter;
 	font-size: 1vw;
 
@@ -189,7 +190,7 @@ h4 {
 }
 
 h5 {
-	color: #0099ff;
+	color: #ffecbe;
 	font-size: 1.3vw;
 	margin-left: 1.5vw;
 }
@@ -198,7 +199,7 @@ h5 {
 h6 {
 	margin-top: .5vw;
 	margin-left: -.1vw;
-	color: #26c5e5;
+	color: #ffe645;
 	font-size: 1vw;
 	text-align: center;
 }
@@ -254,25 +255,6 @@ img {
 
 
 @media (max-width: 1000px) {
-	.navbar, .headerbar {
-		position: fixed; 
-		
-		width: 15%;
-		}
-	
-		.navbar a, .headerbar a {
-		float: column;
-		display: block;
-		color: rgb(174, 174, 174);
-		text-align: center;
-		padding: 25px;
-		text-decoration: none; 
-		font-size: 10px;
-		font-weight: bolder;
-		}
-
-
-	
 
 	ul {
 		grid-template-columns: 1fr 1fr;

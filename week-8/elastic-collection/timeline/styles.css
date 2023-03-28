@@ -75,12 +75,12 @@ body {
 			color: #BBCFDE;
 		}
 			.page1 a:hover {
-				background: #A3D7FF;
+				background: #ffd9a3;
 				color: #002946;;
 
 			}
 			.page2 a:hover {
-				background: #A3D7FF;
+				background: #ffd9a3;
 				color: #002946;
 
 			}
@@ -126,7 +126,7 @@ body {
 
 
 .month {
-	margin-top: 8vw;
+	margin-top: 2vw;
 	font-family: serif;
 	font-style: italic;
 	font-size: 14vw;
@@ -134,13 +134,14 @@ body {
 
 	letter-spacing: -20px;
 	
-	color: #2cb5ca;
+	color: #eb9717;
 	
 }
 
 .year {
 	margin-top: -1.5vw;
 	margin-left: 2vw;
+	margin-bottom: 9vw;
 	font-family: serif;
 	font-size: 2vw;
 	font-weight: lighter;
@@ -156,7 +157,7 @@ h1 {
 	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 4vw;
 
-    color: rgba(0, 132, 255, 0.861);
+    color: rgba(49, 196, 189, 0.861);
 	margin-left: 1.5vw;
 	margin-bottom: -1vw;
 	letter-spacing: -10px;
@@ -210,7 +211,7 @@ h5 {
 h6 {
 	margin-top: .5vw;
 	margin-left: -.1vw;
-	color: #26c5e5;
+	color: #e5b826;
 	font-size: 1vw;
 	text-align: center;
 }

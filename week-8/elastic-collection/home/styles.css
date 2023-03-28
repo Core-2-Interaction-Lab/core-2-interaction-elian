@@ -129,7 +129,7 @@ h1 {
 	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 4vw;
 
-    color: rgba(0, 132, 255, 0.861);
+    color: rgba(255, 149, 0, 0.861);
 	margin-left: 1.5vw;
 	margin-bottom: -1vw;
 	letter-spacing: -10px;
@@ -161,7 +161,7 @@ h3 {
     /* or 175% */
     letter-spacing: -0.1em;
 	margin-left: 1.5vw;
-    color: #cb7300;
+    color: #0099ff;
 }
 
 h4 {
@@ -183,7 +183,7 @@ h5 {
 h6 {
 	margin-top: .5vw;
 	margin-left: -.1vw;
-	color: #0f798e;
+	color: #00848b;
 	font-size: 1vw;
 	text-align: center;
 }
