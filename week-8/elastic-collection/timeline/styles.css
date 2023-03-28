@@ -11,6 +11,7 @@ body {
 	height: 11000px;
 	
 	background: #002946;
+
     font-family: Arial, Helvetica, sans-serif;
 	margin-left: 7vw;
 	margin-left: 7vw;
@@ -23,8 +24,7 @@ body {
 		background: #002946;
 		position: fixed; 
 		width: 8vw;
-		font-weight: bolder;
-		margin-top: -15px;
+	    font-weight: bolder;
 	}
 	.navbar a, .headerbar a {
 		float: column;
@@ -39,10 +39,10 @@ body {
 		/* Individual letter styles */
 		.page1 a{
 			background: #005E91;
-			padding-left: 34px;
+			padding-left: 28.5%;
 			padding-right: 5.9vw;
-			padding-top: 50px;
-			padding-bottom: 53px;
+			padding-top: 55px;
+			padding-bottom: 55px;
 			max-width: 145px;
 
 			font-weight: 700;
@@ -58,9 +58,9 @@ body {
 		.page2 a{
 			background: #004577;
 
-			padding-top: 50px;
-			padding-left: 14px;
-			padding-bottom: 53px;
+			padding-top: 55px;
+			padding-left: 13%;
+			padding-bottom: 55px;
 			padding-right: 7.24vw;
 			max-width: 145px;
 			
@@ -97,8 +97,9 @@ body {
 	display: flex;
 	align-items: center;
 	letter-spacing: 3.5px;
+	max-width: 50vw;
 
-	margin-top: -2vw;
+	margin-top: -1vw;
 	margin-left: 11vw;
 	
 	color: #007094;
@@ -116,7 +117,6 @@ body {
 	align-items: center;
 	letter-spacing: -10px;
 
-	margin-top: 1vw;
 	margin-left: 9.5vw;
 	
 	color: #A3D7FF;
@@ -124,6 +124,31 @@ body {
 	
 }
 
+
+.month {
+	margin-top: 8vw;
+	font-family: serif;
+	font-style: italic;
+	font-size: 14vw;
+	font-weight: bolder;
+
+	letter-spacing: -20px;
+	
+	color: #2cb5ca;
+	
+}
+
+.year {
+	margin-top: -1.5vw;
+	margin-left: 2vw;
+	font-family: serif;
+	font-size: 2vw;
+	font-weight: lighter;
+
+	letter-spacing: 4vw;
+	
+	color: #ffffff;
+}
 
 h1 {
 	font-style: normal;
@@ -199,7 +224,7 @@ h6 {
 
 ul {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	margin-top: calc(4 * var(--spacing));
 	list-style: none;
 	
@@ -249,7 +274,6 @@ img {
 
 @media (max-width: 900px) {
 	.navbar, .headerbar {
-		background-color: rgb(173, 121, 0);
 		position: fixed; 
 		
 		width: 15%;
@@ -274,7 +298,7 @@ img {
 	}
 	.tagline, .textlog {
 		margin-left: 18vw;
-		max-width: 100vw;
+		max-width: 50vw;
 	}
 }
 @media (max-width: 740px) {
