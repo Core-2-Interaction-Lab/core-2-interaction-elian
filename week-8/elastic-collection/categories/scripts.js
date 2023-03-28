@@ -18,27 +18,24 @@ const renderItems = (collection) => {
 		const itemID = document.createElement('h1') // Make an `h2`
 		itemID.innerHTML = item.id // Put the JSON title inside
 		listItem.appendChild(itemID) // And add it to the `li`!
-
+		
 		// You can make each element inside of that…
 		const itemCategory = document.createElement('h2') // Make an `h2`
 		itemCategory.innerHTML = item.category // Put the JSON title inside
 		listItem.appendChild(itemCategory) // And add it to the `li`!
 
-		const itemDate = document.createElement('h3') // Make an `h2`
-		itemDate.innerHTML = item.date // Put the JSON title inside
-		listItem.appendChild(itemDate) // And add it to the `li`!
+		const itemInfo =
+			`
+				<details>
+					<summary class="info">More Info.</summary><br><br>
+					<h3>${item.date}</h3><br>
+					<p>${item.time}</p><br>
+					<h6>${item.gender}</h6><br>
+					<h4>${item.length}</h4>
+				</details>
 
-		const itemTime = document.createElement('p') // Make an `h2`
-		itemTime.innerHTML = item.time // Put the JSON title inside
-		listItem.appendChild(itemTime) // And add it to the `li`!
-
-		const itemGender = document.createElement('h6') // Make an `h2`
-		itemGender.innerHTML = item.gender // Put the JSON title inside
-		listItem.appendChild(itemGender) // And add it to the `li`!
-
-		const itemLength = document.createElement('h4') // Make an `h2`
-		itemLength.innerHTML = item.length// Put the JSON title inside
-		listItem.appendChild(itemLength) // And add it to the `li`!
+			`
+		listItem.insertAdjacentHTML('beforeend', itemInfo) // Which can we then insert
 
 		const itemImage = document.createElement('img') // And an image
 		itemImage.src = item.image // Set the `src` attribute from the JSON

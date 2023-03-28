@@ -126,27 +126,27 @@ body {
 
 
 .month {
-	margin-top: 2vw;
-	font-family: serif;
+	margin-top: 6vw;
+	font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 	font-style: italic;
-	font-size: 14vw;
+	font-size: 10vw;
 	font-weight: bolder;
 
-	letter-spacing: -20px;
+	letter-spacing: -1vw;
 	
-	color: #eb9717;
+	color: #d39a46;
 	
 }
 
 .year {
-	margin-top: -1.5vw;
+	margin-top: -1vw;
 	margin-left: 2vw;
-	margin-bottom: 9vw;
-	font-family: serif;
-	font-size: 2vw;
+	margin-bottom: 1vw;
+	font-family: sans-serif;
+	font-size: 1.5vw;
 	font-weight: lighter;
 
-	letter-spacing: 4vw;
+	letter-spacing: 3.4vw;
 	
 	color: #ffffff;
 }
@@ -155,7 +155,7 @@ h1 {
 	font-style: normal;
     font-weight: bolder;
 	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 4vw;
+    font-size: 2.5vw;
 
     color: rgba(49, 196, 189, 0.861);
 	margin-left: 1.5vw;
@@ -166,9 +166,9 @@ h1 {
 h2 {
     font-style: normal;
 
-	font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-weight: 800;
-    font-size: 4vw;
+	font-family:'Gill Sans';
+    font-weight: bold;
+    font-size: 3.7vw;
     letter-spacing: -0.085em;
 
     color: #ffffff;
@@ -183,13 +183,14 @@ p {
 
 h3 {
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.75vw;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
     line-height: .8vw;
     /* or 175% */
     letter-spacing: -0.1em;
 	margin-left: 1.5vw;
-    color: #4c77bb;
+    color: #8eeaff;
 }
 
 h4 {
@@ -203,7 +204,8 @@ h4 {
 
 h5 {
 	color: #0099ff;
-	font-size: 1.3vw;
+	font-size: 2vw;
+	font-weight: bolder;
 	margin-left: 1.5vw;
 }
 
@@ -212,7 +214,7 @@ h6 {
 	margin-top: .5vw;
 	margin-left: -.1vw;
 	color: #e5b826;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	text-align: center;
 }
 
@@ -241,6 +243,16 @@ li {
 
 	max-width: 100%;
 
+}
+
+.info {
+	font-size: 1.3vw;
+	margin-left: 1.5vw;
+	margin-top: .3vw;
+	font-weight: lighter;
+	font-style: italic;
+
+	color: #fdb94b;
 }
 
 summary {

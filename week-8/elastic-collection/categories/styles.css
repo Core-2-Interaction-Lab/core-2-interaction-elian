@@ -19,72 +19,71 @@ body {
 
   /*navbar 2*/
 
-	.navbar, .headerbar {
-		background: #004161;
-		margin-left: -7vw;
-		position: fixed; 
-		width: 100%;
-	    font-weight: bolder;
-		margin-top: -3.5vw;
-	}
-	.navbar a, .headerbar a {
-		float: left;
-		background: #004161;
-		text-align: center;
-		text-decoration: none; 
-		font-size: 5vw;
-	}
-	.navbar a:hover, .headerbar a:hover {
-		background: #004161;
-	}
-		/* Individual letter styles */
-		.page1 a{
-			background: #00233f;
-			max-width: 145px;
-			padding-top: 1.5vw;
-			padding-bottom: 1.5vw;
-			padding-left: 22%;
-			padding-right: 24.2vw;
+  .navbar, .headerbar {
+	background: #002946;
+	position: fixed; 
+	width: 430.5px; 
+	font-weight: bolder;
+	margin-top: -55px;
+}
+.navbar a, .headerbar a {
+	float: left;
+	background: #002946;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none; 
+	font-size: 25px;
+}
+.navbar a:hover, .headerbar a:hover {
+	background: #002946;
+}
+	/* Individual letter styles */
+	.page1 a{
+		background: #005E91;
+		padding-left: 63px;
+		padding-right: 50px;
+		padding-top: 20px;
+		padding-bottom: 20.5px;
+		width: 98.76px;
 
-			font-weight: 700;
-			font-size: 1.3vw;
-			
-			display: flex;
-			align-items: center;
-			letter-spacing: -0.07em;
-			
-			color: #ffffff;
-			
+		font-weight: 700;
+		font-size: 21px;
+		
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.07em;
+		
+		color: #BBCFDE;
+		
+	}
+	.page2 a{
+		background: #004577;
+
+		padding-left: 65px;	
+		padding-right: 55px;
+		padding-top: 28px;
+		padding-bottom: 28px;
+
+		width: 98.76px;
+		height: 5.71px;
+		
+		font-weight: 700;
+		font-size: 21px;
+		line-height: 54.8%;
+		/* or 12px */
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.07em;
+		
+		color: #BBCFDE;
+	}
+		.page1 a:hover {
+			background: #002946;
 		}
-		.page2 a{
-			background: #005c8a;
-			max-width: 145px;
-			padding-top: 1.5vw;
-			padding-bottom: 1.5vw;
-			padding-left: 22vw;
-			padding-right: 24vw;
-			float: center;
-			
-			
-			font-weight: 700;
-			font-size: 1.3vw;
-			/* or 12px */
-			display: flex;
-			text-align: center;
-			letter-spacing: -0.07em;
-			
-			color: #ffffff;
+		.page2 a:hover {
+			background: #002946;
 		}
-			.page1 a:hover {
-				background: #faeabb;
-				color: #20A3B5;
 
-			}
-			.page2 a:hover {
-				background: #faeabb;
-				color: #20A3B5;
-
-			}
 
 
 
@@ -229,6 +228,14 @@ li {
 
 	max-width: 100%;
 
+}
+
+.info {
+	font-size: 1.5vw;
+	margin-left: 1.5vw;
+	margin-top: .3vw;
+
+	color: #001867;
 }
 
 summary {
