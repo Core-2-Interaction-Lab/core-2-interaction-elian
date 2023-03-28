@@ -265,14 +265,7 @@ img {
 
 
 
-
-@media (max-width: 1100px) {
-	ul {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 	.navbar, .headerbar {
 		position: fixed; 
 		
