@@ -240,6 +240,7 @@ img {
 	object-fit: cover;
 }
 
+
 @media (max-width: 1100px) {
 	ul {
 		grid-template-columns: 1fr 1fr 1fr;
@@ -247,6 +248,26 @@ img {
 }
 
 @media (max-width: 900px) {
+	.navbar, .headerbar {
+		background-color: rgb(173, 121, 0);
+		position: fixed; 
+		
+		width: 15%;
+		}
+	
+		.navbar a, .headerbar a {
+		float: column;
+		display: block;
+		color: rgb(174, 174, 174);
+		text-align: center;
+		padding: 25px;
+		text-decoration: none; 
+		font-size: 10px;
+		font-weight: bolder;
+		}
+
+
+	
 
 	ul {
 		grid-template-columns: 1fr 1fr;

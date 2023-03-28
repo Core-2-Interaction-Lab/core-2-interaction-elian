@@ -22,7 +22,7 @@ body {
 	.navbar, .headerbar {
 		background: #002946;
 		position: fixed; 
-		width: 120px;
+		width: 8vw;
 		font-weight: bolder;
 		margin-top: -10px;
 	}
@@ -40,13 +40,13 @@ body {
 		.page1 a{
 			background: #005E91;
 			padding-left: 34px;
-			padding-right: 36px;
+			padding-right: 5.9vw;
 			padding-top: 50px;
 			padding-bottom: 53px;
 			max-width: 145px;
 
 			font-weight: 700;
-			font-size: 21px;
+			font-size: 1.7vw;
 			
 			display: flex;
 			align-items: center;
@@ -61,11 +61,12 @@ body {
 			padding-top: 50px;
 			padding-left: 14px;
 			padding-bottom: 53px;
+			padding-right: 7.24vw;
 			max-width: 145px;
 			
 			
 			font-weight: 700;
-			font-size: 21px;
+			font-size: 1.7vw;
 			/* or 12px */
 			display: flex;
 			text-align: center;
@@ -74,10 +75,14 @@ body {
 			color: #BBCFDE;
 		}
 			.page1 a:hover {
-				background: #002946;
+				background: #A3D7FF;
+				color: #002946;;
+
 			}
 			.page2 a:hover {
-				background: #002946;
+				background: #A3D7FF;
+				color: #002946;
+
 			}
 	
 
@@ -88,13 +93,13 @@ body {
 	font-weight: 100;
 	font-style: italic;
 	font-size: 1.7vw;
+	margin-left: 165px;
 	
 	display: flex;
 	align-items: center;
 	letter-spacing: 3.5px;
 
 	margin-top: -27px;
-	margin-left: 30px;
 	
 	color: #007094;
 	
@@ -246,6 +251,27 @@ img {
 }
 
 @media (max-width: 900px) {
+	.navbar, .headerbar {
+		background-color: rgb(173, 121, 0);
+		position: fixed; 
+		
+		width: 15%;
+		}
+	
+		.navbar a, .headerbar a {
+		float: column;
+		display: block;
+		color: rgb(174, 174, 174);
+		text-align: center;
+		padding: 25px;
+		text-decoration: none; 
+		font-size: 10px;
+		font-weight: bolder;
+		}
+
+
+	
+
 	ul {
 		grid-template-columns: 1fr 1fr;
 	}
