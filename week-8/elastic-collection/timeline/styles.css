@@ -40,7 +40,7 @@ body {
 		.page1 a{
 			background: #005E91;
 			padding-left: 30%;
-			padding-right: 4.5vw;
+			padding-right: 5.4vw;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			max-width: 145px;
@@ -61,7 +61,7 @@ body {
 			padding-top: 50px;
 			padding-left: 12%;
 			padding-bottom: 50px;
-			padding-right: 5.4vw;
+			padding-right: 6.3vw;
 			max-width: 145px;
 			
 			
@@ -141,7 +141,7 @@ body {
 .year {
 	margin-top: -1vw;
 	margin-left: 2vw;
-	margin-bottom: 6vw;
+	margin-bottom: 9vw;
 	font-family: sans-serif;
 	font-size: 1vw;
 	font-weight: lighter;
