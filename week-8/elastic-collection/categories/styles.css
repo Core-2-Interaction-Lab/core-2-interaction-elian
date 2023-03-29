@@ -126,7 +126,7 @@ body {
 
 .categ {
 	margin-top: 2vw;
-	margin-bottom: 8vw;
+	margin-bottom: 6vw;
 	font-family: 'Gill Sans';
 	font-style: italic;
 	font-size: 8vw;
@@ -266,20 +266,12 @@ img {
 	ul {
 		grid-template-columns: 1fr 1fr;
 	}
-	.tagline, .textlog {
-		margin-left: 18vw;
-		max-width: 50vw;
-	}
 }
 @media (max-width: 740px) {
 	ul {
 		grid-template-columns: 1fr;
 	}
-	.tagline {
-		max-width: 35vw;
-	}
 }
-
 
 
 
