@@ -23,7 +23,7 @@ body {
 	.navbar, .headerbar {
 		background: #002946;
 		position: fixed; 
-		width: 8vw;
+		width: 5vw;
 	    font-weight: bolder;
 	}
 	.navbar a, .headerbar a {
@@ -39,10 +39,10 @@ body {
 		/* Individual letter styles */
 		.page1 a{
 			background: #005E91;
-			padding-left: 28.5%;
-			padding-right: 5.9vw;
-			padding-top: 55px;
-			padding-bottom: 55px;
+			padding-left: 30%;
+			padding-right: 4.5vw;
+			padding-top: 50px;
+			padding-bottom: 50px;
 			max-width: 145px;
 
 			font-weight: 700;
@@ -58,10 +58,10 @@ body {
 		.page2 a{
 			background: #004577;
 
-			padding-top: 55px;
-			padding-left: 13%;
-			padding-bottom: 55px;
-			padding-right: 7.24vw;
+			padding-top: 50px;
+			padding-left: 12%;
+			padding-bottom: 50px;
+			padding-right: 5.4vw;
 			max-width: 145px;
 			
 			
