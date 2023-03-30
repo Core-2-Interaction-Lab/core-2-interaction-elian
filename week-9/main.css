@@ -1,0 +1,71 @@
+body {
+    max-width: 1505px;
+    background: rgb(249, 241, 247);
+}
+
+
+.navbar, .headerbar {
+	background: #5a0042;
+	position: fixed; 
+	width: 430.5px; 
+	font-weight: bolder;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.navbar a, .headerbar a {
+	float: left;
+	background: #5a0042;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none; 
+	font-size: 25px;
+}
+.navbar a:hover, .headerbar a:hover {
+	background: #705e6b;
+}
+	/* Individual letter styles */
+	.previous a{
+		background: #a6206a;
+		padding-left: 63px;
+		padding-right: 50px;
+		padding-top: 20px;
+		padding-bottom: 20.5px;
+		width: 98.76px;
+
+		font-weight: 700;
+		font-size: 21px;
+		
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.07em;
+		
+		color: #debbd7;
+		
+	}
+	.next a{
+		background: #5a0042;
+
+		padding-left: 65px;	
+		padding-right: 55px;
+		padding-top: 28px;
+		padding-bottom: 28px;
+
+		width: 98.76px;
+		height: 5.71px;
+		
+		font-weight: 700;
+		font-size: 21px;
+		line-height: 54.8%;
+		/* or 12px */
+		display: flex;
+		align-items: center;
+		letter-spacing: -0.07em;
+		
+		color: #debbd7;
+	}
+		.page1 a:hover {
+			background: #705e6b;
+		}
+		.page2 a:hover {
+			background: #705e6b;
+		}
