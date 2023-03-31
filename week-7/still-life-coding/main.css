@@ -189,6 +189,7 @@ body {
 
 }
 
+
 .tape {
     position: absolute;
     width: 186px;
@@ -251,7 +252,7 @@ body {
     width: 91px;
     height: 164px;
     left: 453px;
-    top: 997px;
+    top: 996.5px;
     
     background: linear-gradient(180deg, #9A8E4E 0%, #D6C77C 100%);
     box-shadow: -40px 30px 40px rgba(0, 0, 0, 0.1);
@@ -352,10 +353,69 @@ body {
 
 
 
+.tape-roll {
+    position: relative;
+    animation: roll 2s ease-in-out infinite;
+  }
+  
+  @keyframes roll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
 
+  .display {
+    position: absolute;
+    width: 122px;
+    height: 122px;
+    left: 392px;
+    top: 848px;
+    border-radius: 50%;
+    animation: flicker 01s infinite;
+  }
+  
 
+  @keyframes flicker {
+    0% {
+      background-color: rgb(69, 92, 150);
+    }
+    50% {
+      background-color: rgb(13, 0, 47);
+    }
+    100% {
+      background-color: rgb(126, 115, 164);
+    }
+  }
 
+  
+  
+  
 
+  .display::before {
+    content: "ERROR";
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 5.4vw;
+    top: -30px;
+    left: 55%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -1px;
+  }
+
+  
+  
+  
 
 
 
