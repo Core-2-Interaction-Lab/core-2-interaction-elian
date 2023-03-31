@@ -5,11 +5,11 @@ body {
 
 
 .navbar, .headerbar {
+	margin-top: -7vw;
 	background: #5a0042;
 	position: fixed; 
 	width: 430.5px; 
 	font-weight: bolder;
-    margin-top: -20px;
     margin-bottom: 20px;
 }
 .navbar a, .headerbar a {
@@ -68,4 +68,18 @@ body {
 		}
 		.page2 a:hover {
 			background: #705e6b;
+		}
+
+
+		img {
+			max-width: 40%;
+			float: right;
+			margin-right: 10vw;
+			margin-top: -15vw;
+		}
+
+		.header {
+			margin-top: 7vw;
+			font-size: 2vw;
+			font-weight: bolder;
 		}

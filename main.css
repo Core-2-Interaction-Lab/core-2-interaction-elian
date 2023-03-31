@@ -1,0 +1,217 @@
+/* Set global styles for the page */
+
+body {
+    background-color: #F6EFEF;
+    color: #3F3D3B;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  
+  header {
+    background-color: #E54B4B;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  /* Style the main content area */
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #E54B4B;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+  
+  ul, ol {
+    margin: 0;
+    padding: 0 0 0 40px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  
+  footer {
+    background-color: #E54B4B;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add some additional styles for the heart-shaped cake image */
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  /* Style the text with different shades of pink */
+  
+  h1, h2, h3, h4, h5, h6, p, li {
+    color: #E54B4B;
+  }
+  
+  body {
+    background-color: #F8DFE2;
+  }
+  
+  header, footer {
+    background-color: #E54B4B;
+  }
+  
+  /* Apply specific font styles */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+  }
+  
+  /* Set the box model for each section */
+  
+  section {
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Set the spacing for the different sections */
+  
+  header {
+    margin-bottom: 50px;
+  }
+  
+  section + section {
+    margin-top: 50px;
+  }
+  
+  /* Add a hover effect for links */
+  
+  a:hover {
+    color: #FF4E4E;
+  }
+
+  /* Style for the image */
+/* Style for the image */
+
+/* Style for the image */
+
+img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10vw;
+    margin-top: 19vw;
+    max-width: 45%;
+    
+    border-radius: 5%;
+}
+  
+  /* Style for the ingredients */
+  
+  .ingredients {
+    margin-top: 100px;
+    padding-right: 20%;
+    overflow: hidden;
+  }
+  
+  /* Style for the page title */
+
+/* Style for the page title */
+
+
+.page-title {
+    font-family: serif;
+    font-style: italic;
+    font-size: 6vw;
+    font-weight: bolder;
+    color: white;
+
+    margin-top: -30px;
+  }
+  
+  /* Style for the navbar */
+  
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+    height: 1vw;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  
+  nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ff8bc5;
+  }
+  
+  nav a:hover {
+    background-color: #ff6fa1;
+  }
+  
+  /* Style for the button container */
+
+.button-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the button */
+  
+  .button {
+    display: inline-block;
+    padding: 20px 70px;
+    background-color: #ff8b8f;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #ff6fa1;
+  }
+  
