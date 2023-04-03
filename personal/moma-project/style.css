@@ -145,7 +145,7 @@
 
         .title {
             color: #1d1f22;
-            font-size: 7vw;
+            font-size: 6vw;
             font-family: 'arial';
             font-weight: bolder;
             text-align: center;
@@ -156,4 +156,5 @@
 
         .button-container {
             margin-top: -2vw;
+            mar
         }
