@@ -60,7 +60,7 @@ header h3 {
   position: absolute;
   font-style: italic;
 
-  margin-top: 1.73611vw;
+  margin-top: 3.73611vw;
 
   letter-spacing: -.2vw;
   display: inline-block;
@@ -71,8 +71,8 @@ header h3 {
 }
 
 .content {
-  font-size: 2vw;
-  max-width: 82vw;
+  font-size: 1.5vw;
+  max-width: 45vw;
 
   letter-spacing: -.07vw;
   font-weight: 200;
