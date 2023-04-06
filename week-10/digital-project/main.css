@@ -1,0 +1,352 @@
+
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EBEBEB;
+  color: #000000;
+  font-family: 'Inter';
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-divider {
+  border: none;
+  height: 1px;
+  margin: 2.60417vw 0;
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+/* Header styles */
+header {
+  text-align: left;
+  padding-left: 10vw;
+  padding-top: 5vw;
+}
+
+header h1 {
+  font-size: 8vw;
+  font-weight: 900;
+
+  letter-spacing: -.5vw;
+  word-spacing: .6vw;
+}
+
+header h2 {
+  font-size: 6vw;
+  font-weight: 300;
+
+  margin-top: -1.5vw;
+  
+  letter-spacing: -.5vw;
+  word-spacing: .6vw;
+
+  font-style: italic;
+  display: inline-block;
+}
+
+header h3 {
+  font-size: 3vw;
+  font-weight: lighter;
+  position: absolute;
+  font-style: italic;
+
+  margin-top: 1.73611vw;
+
+  letter-spacing: -.2vw;
+  display: inline-block;
+  margin-left: 2vw;
+  top: 11.4vw;
+
+  
+}
+
+.content {
+  font-size: 2vw;
+  max-width: 82vw;
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+
+  margin-top: -24vw;
+  margin-bottom: -8vw;
+  margin-left: 1.2vw;
+}
+
+
+.subtitle {
+  font-style: italic;
+  font-size: 2vw;
+  margin-left: 1.2vw;
+  
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+
+  display: inline-block;
+}
+
+a {
+  font-size: 1.6vw;
+  position: absolute;
+  top: 26.5vw;
+  margin-left: 1vw;
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+  display: inline-block;
+  text-decoration: underline;
+
+  color: #000000;
+}
+
+a:hover {
+  color: #999595;
+
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  column-gap: 2vw;
+
+  max-height: 400vw;
+}
+
+.ul2 {
+  display: grid;
+	grid-template-columns: 2fr 1fr;
+  column-gap: 2vw;
+
+  max-height: 400vw;
+}
+
+.font {
+  float: right;
+  margin-top: 4vw;
+
+  max-width: 37vw;
+  margin-bottom: 10vw;
+}
+
+.cards {
+  float: left;
+
+  position: absolute;
+  left: 8.8vw;
+
+  
+  margin-top: 2vw;
+  max-width: 43vw;
+}
+
+.content2 {
+  position: absolute;
+  top: 158.8vw;
+  left: 10vw;
+
+  font-size: 2vw;
+  max-width: 80vw;
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+}
+
+.typeface {
+  float: right;
+  font-style: italic;
+  font-size: 2vw;
+  position: absolute;
+
+  right: 10.5vw;
+  
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+}
+.desktop {
+  font-style: italic;
+  font-size: 2vw;
+  margin-left: 2.5vw;
+  margin-bottom: 2vw;
+  
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+
+  display: inline-block;
+}
+
+.mobile {
+  float: right;
+  font-style: italic;
+  font-size: 2vw;
+  position: absolute;
+
+  right: 10.5vw;
+  top: 220vw;
+  
+
+  letter-spacing: -.07vw;
+  font-weight: 200;
+}
+
+.title {
+  font-size: 6vw;
+  font-weight: 900;
+
+  letter-spacing: -.4vw;
+  word-spacing: .6vw;
+
+  margin-top: 13vw;
+  margin-bottom: 8vw;
+}
+
+
+
+/* Main styles */
+main {
+  padding: 8.33333vw;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  margin-bottom: 8.33333vw;
+}
+
+section h2 {
+  font-size: 3.75vw;
+  font-weight: 700;
+  margin-bottom: 0.83333vw;
+}
+
+section h3 {
+  font-size: 1.5625vw;
+  font-weight: 400;
+  margin-bottom: 1.73611vw;
+}
+
+.image-container {
+  overflow: hidden;
+  margin-top: 1.73611vw;
+}
+
+.image-placeholder {
+  width: 100%;
+  padding-bottom: 32.29167vw; /* set this to the aspect ratio of your image */
+}
+
+/* Footer styles */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.08333vw;
+}
+
+footer p {
+  font-size: 0.72917vw;
+  font-weight: 400;
+}
+
+
+
+.dropdown {
+  position: fixed;
+  top: 2vw;
+  left: 10.5vw;
+  z-index: 9999;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 7vw;
+
+  box-shadow: 0px 0.625vw 1.25vw 0px rgba(0,0,0,0.2);
+  z-index: 9999;
+
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropbtn {
+  z-index: 9999;
+  background-color: #000;
+  color: #EBEBEB;
+  font-size: 1vw;
+  border: none;
+  cursor: pointer;
+  padding: 1vw;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  z-index: 9999;
+}
+
+.dropdown-content button {
+  color: #000;
+  padding: 1vw;
+  text-decoration: none;
+  display: block;
+  font-size: 1vw;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 9999;
+  
+}
+
+.dropdown-content button:hover {
+  background-color: #ddd;
+  z-index: 9999;
+}
+
+
+.pic1 {
+  margin-left: -3vw;
+  max-width: 70vw;
+}
+
+.pic2 {
+  position: absolute;
+  right: 10.5vw;
+  top: 223vw;
+  max-width: 22vw;
+}
+
+.gif {
+  position: absolute;
+  top: 241vw;
+  left: 11.75vw;
+  max-width: 51vw;
+  border-radius: 1.8vw;
+}
+
+.gif2 {
+  position: absolute;
+  top: 237vw;
+  left: 11.75vw;
+  max-width: 51vw;
+  border-radius: 1.8vw;
+}
+
+
+
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Project</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;900&display=swap">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">MENU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x25BC;</button>
+        <div class="dropdown-content">
+          <button onClick="smoothScroll('website')">Website</button>
+          <button onClick="smoothScroll('identity')">Identity</button>
+          <button onClick="smoothScroll('run-through')">Run-through</button>
+        </div>
+      </div>
+      
+    <header>
+        <h1>Stories as Networks:</h1>
+        <h2>On Beginnings</h2>
+        <h3>by Jorge Luis Borges</h3>
+    </header>
+    
+    <main>
+        <section>
+            <p id="website" class="subtitle">Website:</p>
+            <a  class="a" href="https://core-2-interaction-lab.github.io/oatmealbowl-MateoPerez/Project1/beginnings.html" class="link">https://core-2-interaction-lab.github.io/oatmealbowl-MateoPerez/Project1/beginnings.html</a>
+            <div class="image-container">
+                <div class="image-placeholder"><img src="https://i.postimg.cc/YSJ8pW87/Group-4.png" alt="Frame taken from a website, visit link to view more."></div>
+            </div>
+            <p class="content">Stories as Networks was our first Core 2: Interaction project as Sophomores at Parsons SoD—this particular website was created by Mateo Pérez. Inspired by Jorge Luis Borges’s text, Mateo managed to conceptualize it and capture its essence in a web page, this is what we will be breaking down further as you explore this page.
+            </p>
+        </section>
+        
+        <hr class="section-divider">
+        <section id="identity">
+        <p  class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graphic Identity:</p>
+        <div class="ul">
+        <ul>
+            <ul>
+                <p class="subtitle" >Colors:</p>
+                <div class="image-container">
+                    <div image-placeholder><img class="cards" src="https://i.postimg.cc/521ZX9bH/Screenshot-2023-04-05-at-4-25-59-PM.png" alt="Color cards for Black and White"></div>
+                </div>
+            </ul>
+            <ul>
+                <p class="typeface">Typeface:</p>
+                <div class="image-container"></div>
+                    <div image-placeholder><img class="font" src="https://i.postimg.cc/cHmn3g1b/Group-22.png" alt="PT Mono Font breakdown"></div>
+                </div>
+            </ul>
+        </ul>
+        </div>
+        <div class="content2">
+            <p >Mateo’s constructed identity is very easy to spot: it is <br>clean, it is simplified and entirely uncomplicated.<br><br>
+
+            His goal is to convey a clear message through<br> Borges’s text—and that translates for all of his work.</p>
+        </div>
+        </section>
+
+        <hr class="section-divider">
+        <section>
+            <p id="run-through" class="title">Mock-Ups +<br>Run-Through</p>
+            <p class="desktop">Desktop:</p>
+                <div class="pic1" class="image-placeholder">
+                    <img class="pic1" src="https://i.postimg.cc/k59bLnB9/Screenshot-2023-04-05-at-9-48-40-PM.png" alt="Frame taken from a website, visit link to view more.">
+
+            </div>
+            <p class="mobile">Mobile:</p>
+                    <img class="pic2" src="https://i.postimg.cc/fT31ps9V/Screenshot-2023-04-05-at-9-42-50-PM.png" alt="Frame taken from a website, visit link to view more.">
+                    <img class="gif2" src="https://i.postimg.cc/s29djRs3/Gif-Web-1-1.png">  
+                    <img class="gif" src="https://i.postimg.cc/TYSNC15Z/Gif-Web-1.gif" alt="Frame taken from a website, visit link to view more.">                 
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Elian Villarrubia</p>
+    </footer>
+</body>
+</html>
+<script>
+    function smoothScroll(target) {
+      var targetPosition = document.getElementById(target).offsetTop;
+      var startPosition = window.pageYOffset;
+      var distance = targetPosition - startPosition;
+      var duration = 1000;
+      var startTime = null;
+  
+      function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        var timeElapsed = currentTime - startTime;
+        var run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+      }
+  
+      function ease(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c / 2 * (t * (t - 2) - 1) + b;
+      }
+  
+      requestAnimationFrame(animation);
+    }
+  </script>
