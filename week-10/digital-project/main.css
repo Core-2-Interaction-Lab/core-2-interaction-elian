@@ -151,10 +151,10 @@ ul {
 
 .content2 {
   position: absolute;
-  top: 158.8vw;
+  top: 173.8vw;
   left: 10vw;
 
-  font-size: 2vw;
+  font-size: 1.8vw;
   max-width: 80vw;
 
   letter-spacing: -.07vw;
@@ -193,7 +193,7 @@ ul {
   position: absolute;
 
   right: 10.5vw;
-  top: 220vw;
+  top: 230vw;
   
 
   letter-spacing: -.07vw;
@@ -327,13 +327,13 @@ footer p {
 .pic2 {
   position: absolute;
   right: 10.5vw;
-  top: 223vw;
+  top: 234vw;
   max-width: 22vw;
 }
 
 .gif {
   position: absolute;
-  top: 241vw;
+  top: 259vw;
   left: 11.75vw;
   max-width: 51vw;
   border-radius: 1.8vw;
@@ -341,7 +341,7 @@ footer p {
 
 .gif2 {
   position: absolute;
-  top: 237vw;
+  top: 256vw;
   left: 11.75vw;
   max-width: 51vw;
   border-radius: 1.8vw;
