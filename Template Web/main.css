@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+  background-color: rgb(245, 177, 192);
+  font-family: "Inter", sans-serif;
+
+  max-width: 1512px;
+  min-height: 4287px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vw;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 13vw;
+  letter-spacing: -.8vw;
+  color: white;
+  margin-left: 3vw;
+}
+
+/* menu */
+.dropdown-menu {
+  position: fixed;
+  z-index: 998;
+}
+
+.menu-button {
+  position: fixed;
+  top: 5vh;
+  right: 6vw;
+  font-size: 2vw;
+  font-weight: 900;
+  color: rgb(138, 16, 95);
+  background-color: white;
+  padding: 1vw 5vw;
+  border-radius: 8vw;
+  cursor: pointer;
+  z-index: 999;
+  border: none;
+}
+
+.dropdown-list {
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  top: 10vh;
+  right: 7.24vw;
+  background-color: white;
+  padding: 2vw 4vw;
+  border-radius: 1vw;
+  z-index: 1;
+}
+
+.dropdown-list ul {
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+  padding: 1vw;
+}
+
+.dropdown-list a {
+  color: rgb(138, 16, 95);
+  font-size: 1.7vw;
+  line-height: 2vw;
+}
+
+.dropdown-menu:hover .dropdown-list {
+  display: block;
+}
+
+/* paragraph */
+
+.template-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+  padding: 3vw;
+}
+
+.template-text {
+  font-weight: normal;
+  font-size: 1.8vw;
+  color: white;
+  width: 44.47vw;
+  line-height: 2.4vw;
+  margin: 3vw;
+}
+
+.image {
+  width: 37vw;
+  height: 27vw;
+  margin-right: 4vw;
+  margin-left: 2vw;
+  border-radius: 2vw;
+}
+
+.bts-button {
+  font-size: 2vw;
+  font-weight: 900;
+  color: rgb(138, 16, 95);
+  background-color: white;
+  padding: 1vw 5vw;
+  border-radius: 8vw;
+  cursor: pointer;
+  z-index: 999;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+}
+
+#back-to-start-btn {
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}

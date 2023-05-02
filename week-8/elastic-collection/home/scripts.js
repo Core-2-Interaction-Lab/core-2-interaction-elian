@@ -15,7 +15,7 @@ const renderItems = (collection) => {
 		const itemCategory = document.createElement('h2') // Make an `h2`
 		itemCategory.innerHTML = item.category // Put the JSON title inside
 		listItem.appendChild(itemCategory) // And add it to the `li`!
-
+ 
 		const itemDate = document.createElement('h3') // Make an `h2`
 		itemDate.innerHTML = item.date // Put the JSON title inside
 		listItem.appendChild(itemDate) // And add it to the `li`!

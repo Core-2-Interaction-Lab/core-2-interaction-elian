@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="reset-stylesheet" href="reset.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="start" class="title">Web Template</h1>
+      <nav class="dropdown-menu">
+        <button class="menu-button">Menu</button>
+        <ul class="dropdown-list">
+          <li><a href="#start">START</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="template-section">
+      <p class="template-text">
+        "This is a template I created for myself to use as a starting point for future web projects. I can add and modify anything I want to fit the specific needs of each project. This is just placeholder text to give an idea of how the template would look with actual content. I plan on using this template to experiment with different design concepts and techniques, and to keep a record of my progress as a web developer. It's important for me to have a solid foundation to work from, and this template provides just that. I'm excited to see what I'll be able to create using this template as a starting point!"
+      </p>
+      <div class="image">
+        <img class="image" src="https://i.postimg.cc/Vk9RGTxY/IMG-3809-3-1100x1580-jpg.jpg" alt="Vanilla, Earl Grey and Raspberry Heart Cake - A parisian Journey">
+      </div>
+    </div>
+
+    <button class="bts-button" id="back-to-start-button">Back to Start</button>
+
+    <script>
+      const backToTopButton = document.querySelector("#back-to-start-button");
+    
+      backToTopButton.addEventListener("click", function() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      });
+    
+      window.addEventListener("scroll", function() {
+        if (document.documentElement.scrollTop > 2000) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+    
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
+    </script>    
+
+    <script src="script.js"></script>
+  </body>
+</html>
