@@ -8,13 +8,13 @@ html {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
+
 body {
   background-color: rgb(0, 38, 47);
+
   font-family: "Inter", sans-serif;
-
-  width: 1512px;
-  height: 8287px;
-
+  width: 1280vw;
+  height: 7020.93px;
   background-image: url('https://i.postimg.cc/MT7zcx4k/Background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,22 +22,17 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  margin-top: 2vw;
-}
-
 .title {
   max-width: 42vw;
-  margin-left: 3vw;
+  
   right: 38vw;
   top: 5vw;
-}   
 
+  margin-bottom: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 3vw;
+}   
 
 /* menu */
 .dropdown-menu {
@@ -47,16 +42,13 @@ header {
 
 .menu-button {
   position: fixed;
-
   width: 15.02vw;
   height: 2.11vw;
   left: 79.32vw;
   top: 4vw;
-  border-radius: 2vw;
 
   font-size: 2vw;
   font-weight: 600;
-
   color: white;
   background-color: #003032;
 
@@ -65,18 +57,17 @@ header {
   cursor: pointer;
   z-index: 999;
   border: none;
+  border-radius: 2vw;
 }
 
 .menu {
   width: 5.429vw;
   align-items: center;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 1vw;
   margin-top: -1vw;
-
   color: #FDFDFD;
 }
 
@@ -89,13 +80,10 @@ header {
   left: 79.6vw;
   top: 3.98vw;
   right: 7.24vw;
-
   background: linear-gradient(180deg, #478F7E 0%, #8F7B47 83.33%);
   mix-blend-mode: luminosity;
   border-radius: 1.169vw;
-
   z-index: 1;
-  
   font-style: normal;
   font-weight: 400;
   font-size: 1.1019vw;
@@ -120,7 +108,6 @@ header {
 }
 
 /* paragraph 1 */
-
 .paragraph1 {
   display: flex;
   align-items: center;
@@ -130,22 +117,18 @@ header {
   position: absolute;
   right: -3.5vw;
   top: 6vw;
-  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 200;
   font-size: 1.6vw;
   line-height: 2.49vw;
-
   text-align: right;
   margin-right: 4.3vw;
-  
   color: #006367;
-  
   mix-blend-mode: normal;
 }
 
-/* COVID x Fire */
+/* Updated COVID x Fire */
 .covidxfire {
   position: absolute;
   width: 38.053vw;
@@ -168,17 +151,13 @@ header {
 }
 
 .rcd-text {
-
   position: absolute;
   width: 42.22vw;
   height: 13.41vw;
   right: -11vw;
   top: 74vw;
   
-
   text-decoration: linear-gradient(90deg, #FF9FAF 5.89%, #FFAFD2 27.71%, #FFA2BE 56.9%, #FF98B0 71.78%, #F81919 88.04%);
-
-
   
   font-family: 'Inter';
   font-style: italic;
@@ -193,18 +172,15 @@ header {
   color: #038000;
   
   mix-blend-mode: luminosity;
-
 }
 
 .rcd-num {
-
   position: absolute;
   width: 42.22vw;
   height: 13.41vw;
   left: 51.74vw;
   top: 83vw;
   
-
   -webkit-text-stroke: .1vw #FFABB9; 
   -webkit-text-stroke-color: .1vw #FFABB9;
 
@@ -222,10 +198,7 @@ header {
   color: #038000;
   
   mix-blend-mode: luminosity;
-
 }
-
-
 
 /* Paragraphs 2 & 3*/
 .paragraphs2-3 {
@@ -251,27 +224,26 @@ header {
   mix-blend-mode: luminosity;
 }
 
+
 .paragraph3 {
   position: absolute;
   width: 44.37vw;
   height: 65.82vw;
   left: 50vw;
   display: inline-block;
-  
   font-family: 'Inter';
   font-style: normal;
   font-weight: 200;
   font-size: 1.467vw;
   line-height: 2.446vw;
-  
   color: #004346;
-  
   mix-blend-mode: luminosity;
 }
 
 .rolling-digits {
   display: flex;
 }
+
 .rolling-digits span {
   width: 4vw;
   height: 6vw;
@@ -291,7 +263,12 @@ header {
   -webkit-text-stroke-color: #FFABB9;
 }
 
-.rcd-num, .digit-1, .digit-2, .digit-3, .digit-4, .digit-5 {
+.rcd-num,
+.digit-1,
+.digit-2,
+.digit-3,
+.digit-4,
+.digit-5 {
   position: absolute;
   width: 42.22vw;
   height: 13.41vw;
@@ -299,7 +276,7 @@ header {
   font-family: 'Inter';
   font-style: italic;
   font-weight: 900;
-  font-size: 20.5vw;
+  font-size: 16.56vw;
   line-height: 77.18%;
   display: flex;
   align-items: center;
@@ -311,165 +288,46 @@ header {
   -webkit-text-stroke-color: #FFABB9;
 }
 
-
-
-
 .digit-1 {
-
-
-  position: absolute;
-  width: 8.80vw;
-  height: 13.39vw;
   left: 53.89vw;
-  top: 86vw;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 900;
-  font-size: 16.56vw;
-  line-height: 77.18%;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.175em;
-
-  color: #038000;
-
-  mix-blend-mode: luminosity;
-  
+  font-size: 15.31vw;
 }
-
 
 .digit-2 {
-
-  position: absolute;
-  width: 11.27vw;
-  height: 13.39vw;
   left: 61vw;
-  top: 86vw;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 900;
-  font-size: 16.56vw;
-  line-height: 77.18%;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.175em;
-
-  color: #038000;
-
-  mix-blend-mode: luminosity;
-  
+  font-size: 15.31vw;
 }
-
 
 .digit-3 {
-
-  position: absolute;
-  width: 11.93vw;
-  height: 13.39vw;
   left: 71.94vw;
-  top: 86vw;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 900;
-  font-size: 16.56vw;
-  line-height: 77.18%;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.175em;
-
-  color: #038000;
-
-  mix-blend-mode: luminosity;
-  
+  font-size: 15.31vw;
 }
-  
-  
+
 .digit-4 {
-
-  position: absolute;
-  width: 11.74vw;
-  height: 13.39vw;
   left: 79.91vw;
-  top: 86vw;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 900;
-  font-size: 16.56vw;
-  line-height: 77.18%;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.175em;
-
-  color: #038000;
-
-  mix-blend-mode: luminosity;
-  
+  font-size: 15.31vw;
 }
-
-
 
 .digit-5 {
-
-  position: absolute;
-  width: 8.80vw;
-  height: 13.39vw;
   left: 86.91vw;
-  top: 86vw;
-
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 900;
-  font-size: 16.56vw;
-  line-height: 77.18%;
-
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.175em;
-
-  color: #038000;
-
-  mix-blend-mode: luminosity;
-  
+  font-size: 15.31vw;
 }
-
-
 
 /* Fire Causes */
 .title2 {
   position: absolute;
   width: 49.47vw;
-  right: -05vw;
+  left: 5vw;
   top: 152.53vw;
-
   font-family: 'Lora';
   font-style: italic;
   font-weight: 700;
   font-size: 11.07vw;
   line-height: 54.8%;
   letter-spacing: -0.085em;
-
   color: #36BBE4;
-
   mix-blend-mode: luminosity;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -580,33 +438,17 @@ header {
 /* back to start button */
 .bts-button {
   font-size: 2vw;
-  font-weight: 300;
-
-  color: white;
-  background-color: #402900;
-
-  border-radius: 10vw;
-  cursor: pointer;
-  z-index: 999;
-
+  font-weight: bold;
+  color: #FFF;
+  background-color: #36BBE4;
   border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-
-  position: fixed;
-  bottom: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  display: none;
-
-  width: 20vw;
-  height: 3.5vw;
-  
-  font-size: 2.3vw;
-
-  text-align: center;
-  letter-spacing: -.1vw;
+  border-radius: 50px;
+  padding: 1vw 3vw;
+  position: absolute;
+  bottom: 10vw;
+  right: 5vw;
+  cursor: pointer;
+  mix-blend-mode: luminosity;
 }
 
 
