@@ -17,7 +17,7 @@ body {
 
   background-image: url('https://i.postimg.cc/MT7zcx4k/Background.png');
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: cover;
   background-attachment: scroll;
   overflow-x: hidden;
 }
