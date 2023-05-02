@@ -12,8 +12,8 @@ body {
   background-color: rgb(0, 38, 47);
   font-family: "Inter", sans-serif;
 
-  max-width: 1512px;
-  min-height: 8287px;
+  width: 1512px;
+  height: 8287px;
 
   background-image: url('https://i.postimg.cc/MT7zcx4k/Background.png');
   background-repeat: no-repeat;
