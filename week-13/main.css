@@ -192,10 +192,10 @@ body {
   
   font-family: 'Inter';
   font-style: italic;
-  font-weight: 300;
-  font-size: 3.2vw;
+  font-weight: 200;
+  font-size: 2.6vw;
   line-height: 77.18%;
-  letter-spacing: -.1vw;
+  letter-spacing: -.15vw;
   
   display: flex;
   align-items: center;
@@ -210,7 +210,7 @@ body {
   position: absolute;
   width: 42.22vw;
   height: 13.41vw;
-  left: 52.5vw;
+  left: 55vw;
   top: 80.2vw;
   
   -webkit-text-stroke: .1vw #FFABB9; 
@@ -224,7 +224,7 @@ body {
   display: flex;
   align-items: center;
   text-align: right;
-  letter-spacing: -0.175em;
+  letter-spacing: -2.2vw;
   
   color: #038000;
   
@@ -263,27 +263,24 @@ body {
   mix-blend-mode: luminosity;
 }
 
-.digit-1 {
-  left: 54.5vw;
-}
 
 .digit-2 {
-  left: 61.5vw;
+  left: 58vw;
 
 }
 
 .digit-3 {
-  left: 72.5vw;
+  left: 70.3vw;
 
 }
 
 .digit-4 {
-  left: 80.5vw;
+  left: 79vw;
 
 }
 
 .digit-5 {
-  left: 87.5vw;
+  left: 87vw;
 
 }
 
@@ -301,11 +298,14 @@ body {
 .paragraphs2-3 {
   display: flex;
   position: relative;
-  top: 60vw;
+  top: 56vw;
+  margin-left: 1vw;
+  font-size: 1.33vw;
+
 }
 .paragraph2 {
   position: absolute;
-  width: 44.37vw;
+  width: 43.8vw;
   height: 65.82vw;
   left: 4.23vw;
   display: inline-block;
@@ -313,7 +313,6 @@ body {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 200;
-  font-size: 1.467vw;
   line-height: 2.446vw;
   
   color: #004346;
@@ -325,14 +324,13 @@ body {
 .paragraph3 {
   position: absolute;
   display: inline-block;
-  width: 44.37vw;
+  width: 44vw;
   height: 65.82vw;
-  left: 50vw;
+  left: 51.3vw;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 200;
-  font-size: 1.467vw;
   line-height: 2.446vw;
 
   color: #004346;
@@ -349,8 +347,8 @@ body {
 .title2 {
   position: absolute;
   width: 49.47vw;
-  left: 5vw;
-  top: 152.53vw;
+  left: 3.64vw;
+  top: 172.58vw;
 
   font-family: 'Lora';
   font-style: italic;
@@ -363,6 +361,26 @@ body {
 
   mix-blend-mode: luminosity;
 }
+
+.instructions1 {
+  position: absolute;
+  height: 2.03vw;
+  left: 3.64vw;
+  top: 183vw;
+  
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.77vw;
+  line-height: 116.68%;
+  
+  letter-spacing: -0.01vw;
+  
+  color: #807C61;
+  
+  mix-blend-mode: luminosity;
+}
+
 
 
 

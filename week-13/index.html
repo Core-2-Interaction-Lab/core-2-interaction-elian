@@ -66,9 +66,8 @@
         Fires Recorded:
       </p>
 
-      <div class="rcd-num">13,921</div>
+      <div class="rcd-num">2,979</div>
       <div class="rolling-digits">
-        <span class="digit-1"></span>
         <span class="digit-2"></span>
         <span class="digit-3"></span>
         <span class="digit-4"></span>
@@ -81,20 +80,18 @@
     <div class="paragraphs2-3">
 
       <div class="paragraph2">
-        The night is dark and full of terrors. Our Sun Shines Bright. The rains of castamere. You know nothing, Jon Snow. A dream of Spring. The night is dark and full of terrors. The tourney of Ashford Meadows. What is dead may never die. A forked purple lightning bolt, on black field speckled with four-pointed stars. The wolf and the lion. I would like a trial by combat. Our Sun Shines Bright. The night is dark and full of terrors. All men must die. The tourney of Ashford Meadows. Unbowed, Unbent, Unbroken. King in the North. The War of the 5 kings. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. It is rare to meet a Lannister who shares my enthusiasm for dead Lannisters. When you play the game of thrones, you win or you die. Unbowed, Unbent, Unbroken. All men must 
+        The COVID-19 pandemic led to a significant reduction in reported fires in New York City in 2020 compared to the previous four years. According to the Bureau of Fire Investigation, only 2,979 fires were reported, a decrease of almost 90% from the average number of 29,540 fires reported between the period of 2016 and 2019. This decline can be attributed to various factors, including the closure of public spaces and the reduced capacity of commercial establishments. These closures meant that there were fewer opportunities for fires to start, and this also translated to fewer incidents of arson. Additionally, with many buildings vacant or underutilized, there were fewer risks of fires caused by heating or electrical equipment malfunctions.
       </div>
 
       <div class="paragraph3">
-        die. You know nothing, Jon Snow. Forgive my manners. I don't see many ladies these days. Lucky for the ladies. You know nothing, Jon Snow. I would like a trial by combat. King in the North. The winds of Winter. The Knight of Lemonwood. The Dothraki do things in their own time, for their own reasons. King in the North. More pigeon pie, please. The rains of castamere. The battle of the redgrass field. May the Father judge him justly. As High as Honor. House Tarly of Horn Hill May the Father judge him justly. You know nothing, Jon Snow. You know nothing, Jon Snow. The night is dark and full of terrors. I would like a trial by combat. The Knight of Lemonwood. A Lannister always pays his debts. The tourney of Ashford Meadows. You know nothing, Jon Snow. More pigeon pie, please. Dunc the Lunk, thick as a castle wall.
+        The pandemic also brought greater awareness of fire safety among individuals spending more time at home, as more people worked from home. This may have contributed to the reduction in fires caused by common errors such as leaving cooking unattended or ignoring smoke detectors' functionality—and less heaters and appliances left unaccounted for. However, it is important to acknowledge that, as with everything, neighborhoods of color with older buildings, inadequate and unreliable fire safety resources, and higher poverty rates may still have experienced higher fires compared to gentrified neighborhoods, and despite the decrease it is important to remain vigilant about fire safety—especially in communities that may be at higher risk.
       </div>
 
     </div>
     
     <img class="title2" src="https://i.postimg.cc/vZD4jg10/Fire_Causes-2.png" alt="Fire Causes">
 
-    
-
-
+    <p class="instructions1">Scroll to either side to see more.</p>
 
 
 
@@ -166,7 +163,7 @@
 
   function rollDigits() {
     let number = 0;
-    const endNumber = 13921;
+    const endNumber = 2979;
     const interval = setInterval(() => {
       if (number >= endNumber) {
         clearInterval(interval);
@@ -175,11 +172,10 @@
         }, 5000);
       }
       const digits = number.toFixed(5).toString().split("");
-      document.querySelector(".digit-1").innerText = digits[0];
-      document.querySelector(".digit-2").innerText = digits[1];
-      document.querySelector(".digit-3").innerText = digits[2];
-      document.querySelector(".digit-4").innerText = digits[3];
-      document.querySelector(".digit-5").innerText = digits[4];
+      document.querySelector(".digit-2").innerText = digits[0];
+      document.querySelector(".digit-3").innerText = digits[1];
+      document.querySelector(".digit-4").innerText = digits[2];
+      document.querySelector(".digit-5").innerText = digits[3];
       number += (endNumber / 500);
     }, .5);
   }
