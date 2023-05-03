@@ -56,7 +56,7 @@
 
     </div>
 
-    <img class="covidxfire" src="https://i.postimg.cc/1XHgxDcj/Covid_x_Fire-3.png" alt="COVID x Fire">
+    <img class="covidxfire" src="https://i.postimg.cc/QdSKrKbn/Group-129.png" alt="COVID x Fire">
     
     <img class="dates" src="https://i.postimg.cc/9FjxR0Kb/Group-108-2.png" alt="March 23, 2020 — Dec 31, 2020  ">
 
@@ -149,61 +149,44 @@
 
 
 
-    <button class="bts-button" id="back-to-start-button"><p class="bts-btn">Back to Start</p></button>
+    <img class="bts-btn" src="https://i.postimg.cc/gcDr2q8M/Subtract-2.png" alt="Back to Start button." onclick="location.href='#start';" style="cursor: pointer;">
+    
+    <footer class="footer"></footer>
+
 
 
 <script>
-  
-      const backToTopButton = document.querySelector("#back-to-start-button");
-    
-      backToTopButton.addEventListener("click", function() {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
-      });
-    
-      window.addEventListener("scroll", function() {
-        if (document.documentElement.scrollTop > 2000) {
-          backToTopButton.style.display = "block";
-        } else {
-          backToTopButton.style.display = "none";
-        }
-      });
-    
-      function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
-        });
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+  function rollDigits() {
+    let number = 0;
+    const endNumber = 13921;
+    const interval = setInterval(() => {
+      if (number >= endNumber) {
+        clearInterval(interval);
+        setTimeout(() => {
+          rollDigits();
+        }, 5000);
       }
+      const digits = number.toFixed(5).toString().split("");
+      document.querySelector(".digit-1").innerText = digits[0];
+      document.querySelector(".digit-2").innerText = digits[1];
+      document.querySelector(".digit-3").innerText = digits[2];
+      document.querySelector(".digit-4").innerText = digits[3];
+      document.querySelector(".digit-5").innerText = digits[4];
+      number += (endNumber / 500);
+    }, .5);
+  }
 
-
-      function rollDigits() {
-  let number = 0;
-  const endNumber = 13921;
-  const interval = setInterval(() => {
-    if (number >= endNumber) {
-      clearInterval(interval);
-      setTimeout(() => {
-        rollDigits();
-      }, 5000);
-    }
-    const digits = number.toFixed(5).toString().split("");
-    document.querySelector(".digit-1").innerText = digits[0];
-    document.querySelector(".digit-2").innerText = digits[1];
-    document.querySelector(".digit-3").innerText = digits[2];
-    document.querySelector(".digit-4").innerText = digits[3];
-    document.querySelector(".digit-5").innerText = digits[4];
-    number += (endNumber / 500);
-  }, .5);
-}
-
-rollDigits();
-
-
-
-</script>    
+  rollDigits();
+</script>
+ 
 
     <script src="script.js"></script>
   </body>
