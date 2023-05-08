@@ -11,7 +11,7 @@ html {
 
 body {
   max-width: 1280px;
-  max-height: 10000px;
+  max-height: 11379px;
 
   background-color: rgb(0, 38, 47);
 
@@ -483,24 +483,20 @@ hr {
 
 .line3 {
 
-  top: 62.24687499999999vw;
+  top: 88.24687499999999vw;
   mix-blend-mode: luminosity;
 }
 
 .line4 {
-  top: 121.24687499999999vw;
+  top: 103.54vw;
   mix-blend-mode: luminosity;
 }
 
 .line5 {
-  top: 121.24687499999999vw;
+  top: 152.246875vw;
   mix-blend-mode: luminosity;
 }
 
-.line6 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
 
 
 
@@ -542,10 +538,10 @@ hr {
 
 .question3 {
   position: relative;
-  width: 81.4531vw;
+  width: 82.4531vw;
   height: 3.90625vw;
   left: 4.990625vw;
-  top: 67.484375vw;
+  top: 93.484375vw;
   
   font-family: 'Inter';
   font-style: normal;
@@ -559,19 +555,25 @@ hr {
 }
 
 .question4 {
-  top: 121.24687499999999vw;
+  position: relative;
+  width: 82.4531vw;
+  height: 3.90625vw;
+  left: 4.990625vw;
+  top: 109.484375vw;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.963671875vw;
+  line-height: 4.1015625vw;
+  
+  color: #453600;
+  
   mix-blend-mode: luminosity;
 }
 
-.question5 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
 
-.question6 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
+
 
 
 
@@ -618,7 +620,7 @@ hr {
   width: 67.34375vw;
   height: 27.109375vw;
   left: 8.75vw;
-  top: 85.08203125vw;
+  top: 102.08203125vw;
 
   font-family: 'Inter';
   font-style: normal;
@@ -631,19 +633,28 @@ hr {
 }
 
 .answer4 {
-  top: 121.24687499999999vw;
+  position: relative;
+  width: 67.34375vw;
+  height: 27.109375vw;
+  left: 8.75vw;
+  top: 114vw;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.40625vw;
+  line-height: 3.90625vw;
+
+  color: #453600;
+  
   mix-blend-mode: luminosity;
 }
 
-.answer5 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
 
-.answer6 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
+
+
+
+
 
 
 .placeholder-container1 {
@@ -680,28 +691,21 @@ hr {
 
 .placeholder3 {
   position: relative;
-  width: 85.55vw;
-  height: 33.33vw;
-  left: calc(50% - 85.55vw/2 - 0.19vw);
-  top: 58.90vw;
-
-  mix-blend-mode: luminosity;
+  width: 100%;
+  height: 63vw;
+  top: 99.9vw;
 }
 
 .placeholder4 {
-  top: 121.24687499999999vw;
+  position: relative;
+  width: 85.46875vw;
+  height: 23.59375vw;
+  left: 7.34375vw;
+  top: 148.953125vw;
+  
   mix-blend-mode: luminosity;
 }
 
-.placeholder5 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
-
-.placeholder6 {
-  top: 121.24687499999999vw;
-  mix-blend-mode: luminosity;
-}
 
 
 
