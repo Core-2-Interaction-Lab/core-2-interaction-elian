@@ -378,11 +378,11 @@ body {
 }
 
 .more-info {
-  position: relative;
+  position: absolute;
   width: 12.5vw;
   height: 2.31vw;
-  left: 2.6700000000000017vw;
-  top: -100vw;
+  left: 82.67vw;
+  top: 184vw;
 
   
   mix-blend-mode: luminosity;
@@ -392,6 +392,7 @@ body {
 /* INFO CARDS GO HERE //////////////////////// */
 .demo-card-container {
   position: relative;
+  display: flex;
   width: 100.07vw;
   height: 25vw;
   left: -0.009000000000000341vw;
@@ -401,11 +402,81 @@ body {
   mix-blend-mode: luminosity;
 }
 
-.demo-cards {
+.card1, .card2, .card3, .card4, .card5, .card6,.card7, .card8, .card9, .card10, .card11, .card12 {
   position: relative;
   width: 178.51vw;
   height: 18.23vw;
   top: 1.72vw;
+
+  margin: 1vw;
+}
+
+.image-container2 {
+  position: relative;
+  white-space: nowrap;
+
+  width: 100.07vw;
+  height: 48vw;
+  top: 11.110000000000014vw;
+  
+  overflow-x: scroll;
+  display: none;
+}
+
+.info1, .info2, .info3, .info4, .info5, .info6,.info7, .info8, .info9, .info10, .info11, .info12 {
+  position: relative;
+  width: 12vw;
+
+
+  margin: 1.2vw;
+}
+
+.info1 {
+  top: -14vw;
+}
+
+.info2 {
+  top: -7vw;
+}
+
+.info3 {
+  top: -2.5vw;
+}
+
+.info4 {
+  top:  -5vw;
+}
+
+.info5 {
+  top: -13.5vw;
+}
+
+.info6{
+  top: -4vw;
+}
+
+.info7 {
+  top: 0vw;
+}
+
+.info8 {
+  top: -2.5vw;
+}
+
+.info9 {
+  top: -5vw;
+}
+
+.info10 {
+  top: -4.36vw;
+}
+
+.info11 {
+  top: -9.5vw;
+}
+
+.info12 {
+  top: -.5vw;
 }
 
 
@@ -488,12 +559,12 @@ hr {
 }
 
 .line4 {
-  top: 103.54vw;
+  top: 114.54vw;
   mix-blend-mode: luminosity;
 }
 
 .line5 {
-  top: 152.246875vw;
+  top: 166.246875vw;
   mix-blend-mode: luminosity;
 }
 
@@ -559,7 +630,7 @@ hr {
   width: 82.4531vw;
   height: 3.90625vw;
   left: 4.990625vw;
-  top: 109.484375vw;
+  top: 121.484375vw;
   
   font-family: 'Inter';
   font-style: normal;
@@ -637,7 +708,7 @@ hr {
   width: 67.34375vw;
   height: 27.109375vw;
   left: 8.75vw;
-  top: 114vw;
+  top: 125vw;
 
   font-family: 'Inter';
   font-style: normal;
@@ -691,9 +762,12 @@ hr {
 
 .placeholder3 {
   position: relative;
-  width: 100%;
-  height: 63vw;
-  top: 99.9vw;
+  width: 83vw;
+  height: 51vw;
+  top: 105.9vw;
+  left: 8vw;
+
+  mix-blend-mode: difference;
 }
 
 .placeholder4 {
@@ -701,7 +775,7 @@ hr {
   width: 85.46875vw;
   height: 23.59375vw;
   left: 7.34375vw;
-  top: 148.953125vw;
+  top: 162.953125vw;
   
   mix-blend-mode: luminosity;
 }
@@ -742,6 +816,11 @@ hr {
   position: relative;
   top: 206.25vw;
 
+  white-space: nowrap;
+
+  width: 100.07vw;
+  height: 48vw;
+  
   overflow-x: scroll;
 }
 
@@ -752,8 +831,36 @@ hr {
 }
 
 
+.image-container2 {
+  position: relative;
+  white-space: nowrap;
 
+  width: 100.07vw;
+  height: 52vw;
+  top: 11.110000000000014vw;
+  
+  overflow-x: scroll;
+  display: none;
+}
 
+.data1, .data2, .data3, .data4, .data5, .data6,.data7 {
+  position: relative;
+  height: 35vw;
+
+  margin: 3vw;
+}
+
+.data1  {
+  mix-blend-mode: luminosity;
+}
+
+.data2, .data3, .data5 {
+  mix-blend-mode: multiply;
+}
+
+.data4, .data6, .data7 {
+  mix-blend-mode: difference;
+}
 
 
 
