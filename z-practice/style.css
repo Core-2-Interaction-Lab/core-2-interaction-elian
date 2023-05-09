@@ -1,0 +1,114 @@
+.rectangle-container {
+	position: relative;
+  width: 17.58vw;
+	height: 66.328125vw;
+	left: 0.3125vw;
+	top: 244.9609375vw;
+  }
+  
+  
+  .rectangle {
+	position: relative;
+	display: inline-block;
+	width: 80%;
+	height: 849px;
+	margin-left: -4px;
+  }
+  
+  .rectangle-item {
+	position: relative;
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+  }
+  
+  /*
+  .cause1, .cause2, .cause3, .cause4, .cause5, .cause6, .cause7, .cause8, .cause9, .cause10, .cause11, .cause12 {
+ 		ahhhhhh idk
+  }
+  */
+
+  .causes-container {
+    position: relative;
+    width: 11.796875vw;
+    left: 65.828125vw;
+    top: -356vw;
+  }
+  
+
+
+
+  .cause1 {
+    position: relative;
+    height: 1vw;
+
+    top: 235.5vw;
+  }
+  .cause2 {
+	position: relative;
+    height: 1.2vw;
+
+    top: 235.8vw;
+  }
+  .cause3 {
+    position: relative;
+    height: 1.3vw;
+
+    top: 236.265625vw;
+  }
+  .cause4 {
+    position: relative;
+    height: 1.7vw;
+
+    top: 236.9453125vw;
+  }
+  .cause5 {
+    position: relative;
+    height: 1.43984375vw;
+
+    top: 238vw;
+  }
+  .cause6 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 240.37109375vw;
+  }
+  .cause7 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 242.6953125vw;
+  }
+  .cause8 {
+	position: relative;
+    height: 1.72578125vw;
+
+    top: 245.984375vw;
+  }
+  .cause9 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 249.546875vw;
+  }
+  .cause10 {
+	position: relative;
+    height: 1.72578125vw;
+
+    top: 254.4765625vw;
+  }
+  .cause11 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 261.890625vw;
+  }
+  .cause12 {
+    position: relative;
+    height: 1.72578125vw;
+    
+    top: 275.5625vw;
+  }

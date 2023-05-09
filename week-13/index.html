@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="main.css">
     <link rel="reset-stylesheet" href="reset.css">
     <script src="script.js"></script>
- 
+    <link rel="stylesheet" href="style.css">
+    <script src="fires.json"></script>
   </head>
 
   <body>
@@ -158,16 +159,39 @@
 
 
 
-<img class="demo-data1" src="https://i.postimg.cc/JzSXsjRQ/Group_152_(1).png" alt="Placeholder Data Vis">
+<img class="demo-data1" src="https://i.postimg.cc/3xdykGZ6/flame-mask.png" alt="flame mask">
 
+	<div class="rectangle-container">
+		<div class="rectangle" id="rectangles-container"></div>
+	</div>
+	  
+	 <div class="causes-container">
+
+		<img class="cause1" src="https://i.postimg.cc/fyqLg6PL/Group-207.png" alt="Causes Title">
+		<img class="cause2" src="https://i.postimg.cc/nV3CzDLJ/Group-208.png" alt="Causes Title">
+		<img class="cause3" src="https://i.postimg.cc/Hsjj7kJ7/Group-209.png" alt="Causes Title">
+		<img class="cause4" src="https://i.postimg.cc/hPwv8RxZ/Group-210.png" alt="Causes Title">
+		<img class="cause5" src="https://i.postimg.cc/rwrmQZNV/Group-211.png" alt="Causes Title">
+		<img class="cause6" src="https://i.postimg.cc/PqbqkL70/Group-212.png" alt="Causes Title">
+		<img class="cause7" src="https://i.postimg.cc/k4ngMJ3G/Group-213.png" alt="Causes Title">
+		<img class="cause8" src="https://i.postimg.cc/mkkZMmrG/Group-214.png" alt="Causes Title">
+		<img class="cause9" src="https://i.postimg.cc/x8ZfPLkN/Group-215.png" alt="Causes Title">
+		<img class="cause10" src="https://i.postimg.cc/tCLRZtQL/Group-216.png" alt="Causes Title">
+		<img class="cause11" src="https://i.postimg.cc/yNKVn1Nj/Group-217.png" alt="Causes Title">
+		<img class="cause12" src="https://i.postimg.cc/0jyjn8cF/Group-218.png" alt="Causes Title">
+
+	 
+	</div>
+	 
+	 
+	 
+	 
+	  <script src="data.json"></script>
+	  <script src="script.js"></script>
 <img class="more-info" id="more-info" src="https://i.postimg.cc/v8W9BhGR/Group-188.png" alt="More Info. Button">
 
 
 
-<div class="image-container">
-  <img class="breakdown" src="https://i.postimg.cc/sDjQY03d/Data_Table_Button.png" alt="Click here for data breakdown">
-  <img class="breakdown-info" src="https://i.postimg.cc/v8LZ1FRC/Group-130.png" alt="Data breakdown">
-</div>
 
 
 
@@ -304,6 +328,7 @@ BUTTON AND FOOTER //////////////////////////////////////////////////////////////
 
 -->
 
+<script src="data.json"></script>
 
 <script>
 
@@ -336,12 +361,6 @@ BUTTON AND FOOTER //////////////////////////////////////////////////////////////
   rollDigits();
 
 
-  const image = document.querySelector('.breakdown');
-  const info = document.querySelector('.breakdown-info');
-
-  image.addEventListener('click', () => {
-    info.classList.toggle('show');
-  });
 
 
 
@@ -355,9 +374,81 @@ moreInfoButton.addEventListener("click", () => {
 });
 
 
-</script>
- 
 
-    <script src="script.js"></script>
+
+
+// JSON data
+const rectangles = [
+	{
+	  height: '0.62vw',
+	  color: '#000000',
+	},
+	{
+	  height: '1.49vw',
+	  color: '#754400',
+	},
+
+	{
+	  height: '1.8vw',
+	  color: '#E46B00',
+	},
+	{
+	  height: '2.58vw',
+	  color: '#FD9B31',
+	},
+	{
+	  height: '3.05vw',
+	  color: '#FDD33C',
+	},
+	{
+	  height: '3.75vw',
+	  color: '#FEF6D1',
+	},
+	{
+	  height: '4.54vw',
+	  color: '#8DB4B6',
+	},
+	{
+	  height: '5.39vw',
+	  color: '#60F6EC',
+	},
+	{
+	  height: '6.33vw',
+	  color: '#00B6DD',
+	},
+	{
+	  height: '6.97vw',
+	  color: '#1F5BFE',
+	},
+	{
+	  height: '10.38vw',
+	  color: '#775496',
+	},
+	{
+	  height: '19.45vw',
+	  color: '#F115CC',
+	},
+
+  ];
+  
+  // Get the container element
+  const container = document.getElementById('rectangles-container');
+  
+  // Loop through the rectangles data and create DOM elements for each one
+  for (let i = 0; i < rectangles.length; i++) {
+	const rectangle = rectangles[i];
+  
+	// Create the rectangle element
+	const div = document.createElement('div');
+	div.classList.add('rectangle');
+	div.style.backgroundColor = rectangle.color;
+	div.style.height = rectangle.height;
+  
+	// Append the rectangle elements to the container
+	container.appendChild(div);
+  }
+  
+</script>
+
   </body>
 </html>

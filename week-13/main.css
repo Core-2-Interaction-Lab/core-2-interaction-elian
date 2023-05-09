@@ -487,7 +487,7 @@ body {
     width: 22.93vw;
     height: 3.19vw;
     left: 4.640000000000001vw;
-    top: -70.69999999999999vw;
+    top: -156.7vw;
 
     mix-blend-mode: luminosity;
     cursor: pointer;
@@ -513,11 +513,108 @@ body {
 
 .demo-data1 {
   position: relative;
-  height: 83vw;
-  left: -1.2523437499999996vw;
-  top: 24.859375vw;
+  height: 76.64vw;
+  left: -0.25234374999999964vw;
+  top: 18.8vw;
 }
 
+
+
+.rectangle-container {
+  position: relative;
+    width: 15.579999999999998vw;
+    height: 65.6vw;
+    top: -53.9vw;
+    left: 48vw;
+  }
+#rectangles-container {
+  height: 65.6vw;
+}
+  
+  
+
+  .causes-container {
+    position: relative;
+    width: 7.796875vw;
+    left: 65.828125vw;
+    top: -358vw;
+  }
+  
+
+
+
+  .cause1 {
+    position: relative;
+    height: 1vw;
+    top: 237.5vw;
+    left: 1.5vw;
+  }
+  .cause2 {
+    position: relative;
+    height: 1.2vw;
+    top: 237.5vw;
+    left: 0.3vw;
+}
+  .cause3 {
+    position: relative;
+    height: 1.3vw;
+
+    top: 237.9453125vw;
+  }
+  .cause4 {
+    position: relative;
+    height: 1.7vw;
+
+    top: 238vw;
+  }
+  .cause5 {
+    position: relative;
+    height: 1.43984375vw;
+
+    top: 239vw;
+  }
+  .cause6 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 240.37109375vw;
+  }
+  .cause7 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 242.6953125vw;
+  }
+  .cause8 {
+	position: relative;
+    height: 1.72578125vw;
+
+    top: 245.984375vw;
+  }
+  .cause9 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 249.546875vw;
+  }
+  .cause10 {
+	position: relative;
+    height: 1.72578125vw;
+
+    top: 254.4765625vw;
+  }
+  .cause11 {
+    position: relative;
+    height: 1.72578125vw;
+
+    top: 260.890625vw;
+  }
+  .cause12 {
+    position: relative;
+    height: 1.72578125vw;
+    
+    top: 275.5625vw;
+  }
 
 
 
