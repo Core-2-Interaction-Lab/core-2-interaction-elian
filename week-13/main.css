@@ -513,9 +513,9 @@ body {
 
 .demo-data1 {
   position: relative;
-  height: 76.64vw;
+  height: 103.33vw;
   left: -0.25234374999999964vw;
-  top: 18.8vw;
+  top: 45.5vw;
 }
 
 
@@ -613,9 +613,14 @@ body {
     position: relative;
     height: 1.72578125vw;
     
-    top: 275.5625vw;
+    top: 273.5625vw;
   }
-
+  .cause13 {
+    position: relative;
+    height: 1.72578125vw;
+    
+    top: 295.5625vw;
+  }
 
 
 /* FAQ */
