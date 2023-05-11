@@ -292,7 +292,7 @@ body {
 
 
 
-/* Paragraphs 2 & 3*/
+/* Paragraph 2 &  Paragraph 3*/
 .paragraphs2-3 {
   display: flex;
   position: relative;
@@ -515,6 +515,7 @@ body {
   position: relative;
   height: 103.33vw;
   left: -0.25234374999999964vw;
+
   top: 45.5vw;
 }
 
